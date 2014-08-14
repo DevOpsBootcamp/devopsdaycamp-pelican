@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+    <title>{{ SITENAME }} </title>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='{{ SITEURL }}/theme/css/styles.css' type='text/css'>
+    <meta name='viewport' content='width=device-width'>
+
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Bitter|Open+Sans' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+        <div id='navbar'>
+            <ul>
+                <li><a href='{{ SITEURL }}'><img src='{{ SITEURL }}/theme/img/logo.png'></a></li>
+                <li><a href='{{ SITEURL }}'>Home</a></li>
+                {% for page in PAGES %}
+                <li><a href='{{ SITEURL }}/{{ page.url }}'>{{ page.title }}</a></li>
+                {% endfor %}
+            </ul>
+
+        </div>
+
+        {% block content %}
+        {% endblock %}
+        <div id='footer'>
+        </div>
+    </body>
+</html>
+

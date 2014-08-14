@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content_title %}{% endblock %}
+{% block content %}
+
+<div id='index'>
+   <div id='text'>
+   <h2>Devops Daycamp</h2>
+   <p>October 11th, 2014</p>
+   <p>Kelley Engineering</p>
+   <p>9am-5pm</p>
+   </div>
+   <div id='indexlogo'>
+       <img src='{{ SITEURL }}/theme/img/airplane.png'>
+   </div>
+</div>
+    {% for page in PAGES %}
+   <section id='article'>
+   <div class='page'>
+            <h3 class='title'>{{ page.title }}</h3>
+            {{ page.content }}
+    </div>
+    </section>
+    {% endfor %}
+{% endblock %} 
