@@ -1,0 +1,11 @@
+{% set count = 1 %}
+{% for page1 in PAGES %}
+    {% for page2 in PAGES %}
+        {% if count==page2.order|int %}
+            {% block action %}
+            {% endblock %}
+        {% endif %}
+    {% endfor %}
+{% set count = count+1%}
+{% endfor %}
+

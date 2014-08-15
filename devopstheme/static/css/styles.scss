@@ -1,18 +1,34 @@
 $bodybg: #fff;
 $primary: #307A40;
-$secondary: #835E21;
-$accent: #000;
+$secondary:  #00A0B0;
+$schedule: #CC333F;
+$osl: #EB6841;
 $navheight: 70px;
-$darktext: #444;
+$darktext: #000;
 $lighttext: #fff;
-$sansserif: 'Open Sans', sans-serif;
 $serif: 'Bitter', serif;
 
 body{
     margin: 0px;
     padding: 0px;
     font-size: 0px;
+    overflow-x: hidden;
 }
+
+h1, h2, h3, h4, h5, p, a{
+    font-family: $serif;
+    color: $lighttext;
+}
+
+h2 { 
+    font-size: 50px;}
+h3 { 
+    font-size: 40px;}
+a {
+    font-size: 25px;}
+p {
+    font-size: 35px;}
+
 
 #navbar{
     height: $navheight;
@@ -21,36 +37,53 @@ body{
     padding: 0px;
     background: $secondary;
     display: inline-block;
-}
+    position: fixed;
+    z-index: 20;
 
-#navbar ul{
-    display: block;
-    height: $navheight;
-}
+    #logo {
+        height: $navheight;
+    }
+    
+    #logo:hover{
+        opacity: 1;
+    }
 
-#navbar ul li{
-    display: inline-block;
-    line-height: $navheight;
-}
+    img{
+        height: $navheight;
+    }
 
-#navbar ul li a{
-    text-decoration: none;
-    color: $darktext;
-    font-family: $serif;
-    font-size: 28px;
-    margin: 0px 10px;
-    display:block;
+    ul{
+        display: block;
+        height: $navheight;
+    }
+
+    ul li{
+        display: inline-block;
+        line-height: $navheight;
+        vertical-align: middle;
+    }
+
+    ul li a{
+        text-decoration: none;
+        padding: 0px 15px;
+        display:block;
+    }
+
+    ul li a:hover{
+        opacity: .5;
+    }
 }
 
 #index{
-    height: 60vh;
+    height: 70vh;
     display: inline-block;
     background: $primary;
     width: 100vw;
     padding-top: 5vh;
+    margin-top: $navheight;
 }
 
-#text{
+.text{
     width: 40%;
     margin: 0px;
     margin-left: 10%;
@@ -58,33 +91,137 @@ body{
     display: inline-block;
 }
 
-#index h2, p{
-    color: $lighttext;
-    font-family: $serif;
-}
-
-#text h2{
-    font-size: 50px;
-}
-
-#text p{
-    font-size: 35px;
-}
-
 #indexlogo{
+    -webkit-animation: loop 3s linear 1;
+    animation: loop 3s linear 1;
     width: 40%;
     margin: 0px;
     margin-right: 10%;
     padding: 0px;
     display: inline-block;
+    position: absolute;
+    
+    img{
+        width: 80%;
+        height: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-#indexlogo img{
-    width: 80%;
-    height: 80%;
-    margin-left: auto;
+.article{
+    padding: 5% 10vw;
+}
+
+.page{
+    max-width: 80vw;
     margin-right: auto;
+    margin-left: auto;
 }
 
+/*about page styles*/
+#about{
+    padding: 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
+#about::after{
+    content:"";
+    background-image: url('../img/devops.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: .6;
+    z-index: -1;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    position: absolute;
+    display: block;
+    max-width: 100vw;
+    width: 100%;
+    padding: 0px;
+}
 
+#about h3, #about p{
+    color: $darktext;
+}
+
+/*Schedule*/
+#schedule{
+    background: $schedule;
+}
+
+/*OSL*/
+#osl{
+    @extend #about;
+}
+
+#osl::after{
+    @extend #about::after;
+    background-image: url('../img/osuoslbig.jpg');
+}
+
+/*Animation of paper airplane*/
+/*@keyframes loop{
+    0%{
+        top: 0;
+        left: 50vw;
+        transform: rotate(180deg);
+        }
+    10%{
+        top: 2.44vw;
+        left: 34.5vw;;
+        transform: rotate(162deg);
+        }
+    20%{
+        top: 9.54vw;
+        left: 20.6vw;
+        transform: rotate(144deg);
+        }
+    30%{
+        top: 20.6vw;
+        left: 9.54vw;
+        transform: rotate(126deg);
+        }
+    40%{
+        top: 34.6vw;
+        left: 2.44vw;
+        transform: rotate(108deg);
+        }
+    50%{
+        top: 50vw;
+        left:0;
+        transform: rotate(90deg);
+        }
+    60%{
+        top: 34.6vw;
+        left: 2.44vw;
+        transform: rotate(72deg);
+        }
+    70%{
+        top: 20.6vw;
+        left: 9.54vw;
+        transform: rotate(54deg);
+    80%{
+        top: 9.54vw;
+        left: 20.6vw;
+        transform: rotate(36deg);
+        }
+    90%{
+        top: 2.44vw;
+        left: 34.6vw;
+        transform: rotate(18deg);
+        }
+    100%{
+        top: 0;
+        left: 50vw;
+        }
+    }
+}*/

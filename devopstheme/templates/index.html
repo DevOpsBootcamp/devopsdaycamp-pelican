@@ -3,7 +3,7 @@
 {% block content %}
 
 <div id='index'>
-   <div id='text'>
+   <div class='text'>
    <h2>Devops Daycamp</h2>
    <p>October 11th, 2014</p>
    <p>Kelley Engineering</p>
@@ -13,12 +13,18 @@
        <img src='{{ SITEURL }}/theme/img/airplane.png'>
    </div>
 </div>
-    {% for page in PAGES %}
-   <section id='article'>
-   <div class='page'>
-            <h3 class='title'>{{ page.title }}</h3>
-            {{ page.content }}
-    </div>
-    </section>
+{% set count = 1 %}
+{% for page1 in PAGES %}
+    {% for page2 in PAGES %}
+        {% if count==page2.order|int %}
+            <section id='{{ page2.slug }}' class='article' name='{{ page2.slug }}'>
+                <div class='page'>
+                    <h3 class='title'>{{ page2.title }}</h3>
+                    {{ page2.content }}
+                </div>
+            </section>
+        {% endif %}
     {% endfor %}
+{% set count = count+1%}
+{% endfor %}
 {% endblock %} 
