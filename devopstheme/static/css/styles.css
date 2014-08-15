@@ -25,7 +25,7 @@ p {
   width: 100vw;
   margin: 0px;
   padding: 0px;
-  background: #00a0b0;
+  background: #0b486b;
   display: inline-block;
   position: fixed;
   z-index: 20; }
@@ -52,7 +52,7 @@ p {
 #index {
   height: 70vh;
   display: inline-block;
-  background: #307a40;
+  background: #88abc2;
   width: 100vw;
   padding-top: 5vh;
   margin-top: 70px; }
@@ -120,7 +120,7 @@ p {
 
 /*Schedule*/
 #schedule {
-  background: #cc333f; }
+  background: #3b8686; }
 
 /*OSL*/
 #osl::after {
