@@ -169,7 +169,7 @@ p {
 }
 
 /*Animation of paper airplane*/
-/*@keyframes loop{
+@keyframes loop{
     0%{
         top: 0;
         left: 50vw;
@@ -177,7 +177,7 @@ p {
         }
     10%{
         top: 2.44vw;
-        left: 34.5vw;;
+        left: 34.5vw;
         transform: rotate(162deg);
         }
     20%{
@@ -209,6 +209,7 @@ p {
         top: 20.6vw;
         left: 9.54vw;
         transform: rotate(54deg);
+        }
     80%{
         top: 9.54vw;
         left: 20.6vw;
@@ -224,4 +225,3 @@ p {
         left: 50vw;
         }
     }
-}*/
