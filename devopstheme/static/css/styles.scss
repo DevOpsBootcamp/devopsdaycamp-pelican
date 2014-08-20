@@ -92,14 +92,18 @@ p {
 }
 
 #indexlogo{
-    -webkit-animation: loop 2s linear 1;
-    animation: loop 2s linear 1;
+    -webkit-animation: fly 1s cubic-bezier(0, 0.2, 0.5, 1) 1;
+    -moz-animation: fly 1s cubic-bezier(0, 0.2, 0.5, 1) 1;
+    -o-animation: fly 1s cubic-bezier(0, 0.2, 0.5, 1) 1;
+    animation: fly 1s cubic-bezier(0, 0.2, 0.5, 1) 1;
     width: 40%;
     margin: 0px;
     margin-right: 10%;
     padding: 0px;
     display: inline-block;
     position: absolute;
+    top: 15vh;
+    left: 50vw;
     
     img{
         width: 80%;
@@ -169,7 +173,7 @@ p {
 }
 
 /*Animation of paper airplane*/
-@keyframes loop{
+/*@keyframes loop{
     0%{
         top: 0vh;
         left: 7.1vw;
@@ -274,4 +278,48 @@ p {
         top: 15vh;
         left: 50vw;
         }
-    }
+    }*/
+
+@keyframes fly{
+    0%{
+        top: 80vh;
+        left: -20vw;
+      }
+    100%{
+        top: 15vh;
+        left: 50vw;
+        }
+}
+
+@-webkit-keyframes fly{
+    0%{
+        top: 80vh;
+        left: -20vw;
+      }
+    100%{
+        top: 15vh;
+        left: 50vw;
+        }
+}
+
+@-moz-keyframes fly{
+    0%{
+        top: 80vh;
+        left: -20vw;
+      }
+    100%{
+        top: 15vh;
+        left: 50vw;
+        }
+}
+
+@-o-keyframes fly{
+    0%{
+        top: 80vh;
+        left: -20vw;
+      }
+    100%{
+        top: 15vh;
+        left: 50vw;
+        }
+}
