@@ -14,7 +14,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Build docs
-SPHINXOPTS="-W" /usr/bin/env make -e html
+SPHINXOPTS="-W" make -e html
 
 # Disable venv
 deactivate
