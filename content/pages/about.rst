@@ -3,4 +3,5 @@ About
 :slug: about
 :order: 1
 
-DevOps DayCamp is the starting point to learn the skills necessary to be software developers and systems engineers. 
+The OSL is kicking off DevOps BootCamp this year with the brand new DevOps DayCamp! 
+DevOps DayCamp is a dual-track day with one track to help inexperienced attendees get started with DevOps, as well as a second track comprised of a hands-on hackathon with educational sessions throughout the day for the more advanced DevOps crowd. Sessions will be given by industry professionals and will include Ansible, Travis CI and Docker.
