@@ -1,4 +1,4 @@
-devopsdays
+Devops Daycamp
 ==========
 
-Landing page for Devops Days event at OSU
+Landing page for Devops Daycamp event at OSU
