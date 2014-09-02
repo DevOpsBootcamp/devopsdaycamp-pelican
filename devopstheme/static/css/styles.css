@@ -10,32 +10,33 @@ h1, h2, h3, h4, h5, p, a {
   margin: 2px; }
 
 h1 {
-  font-size: 4em; }
+  font-size: 40pt; }
 
 h2 {
   margin-top: 1em;
-  font-size: 2.5em; }
+  font-size: 24pt; }
 
 h3 {
-  font-size: 3em;
+  font-size: 36pt;
   margin: auto; }
 
 h4 {
-  font-size: 2em; }
+  font-size: 20pt; }
 
 a {
-  font-size: 1.5em; }
+  font-size: 16pt; }
 
 p {
+  line-height: 1.3em;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.75em; }
+  font-size: 16pt; }
 
 #navbar {
   height: 70px;
   width: 100vw;
   margin: 0px;
   padding: 0px;
-  background: #2b364a;
+  background: #1b325f;
   display: inline-block;
   position: fixed;
   z-index: 20; }
@@ -46,7 +47,7 @@ p {
   #navbar img {
     height: 70px; }
   #navbar ul {
-    display: inline;
+    display: block;
     height: 70px;
     margin: 0px; }
   #navbar ul li {
@@ -72,8 +73,8 @@ p {
     line-height: 70px;
     vertical-align: middle;
     border-top: 1px solid white;
-    background: #2b364a; }
-  #navbar ul li:hover ul {
+    background: #1b325f; }
+  #navbar ul li:hover ul, #navbar ul li ul li:hover ul {
     display: block; }
   #navbar .arrow {
     font-size: .5em;
@@ -83,7 +84,7 @@ p {
   height: 70vh;
   max-height: 500px;
   display: inline-block;
-  background: rgba(43, 54, 74, 0.5);
+  background: #3a89c9;
   width: 100vw;
   padding-top: 5vh;
   margin-top: 70px; }
@@ -146,7 +147,7 @@ p {
   width: 100%;
   height: auto;
   display: block;
-  background: rgba(43, 54, 74, 0.2); }
+  background: #e9f2f9; }
 
 /*#about::after{
     content:"";
@@ -166,21 +167,26 @@ p {
     padding: 0px;
 }*/
 #about h3, #about p {
-  color: #515151; }
+  color: #424242; }
 
 /*OSL*/
 #osl {
-  background: rgba(43, 54, 74, 0.8);
-  color: white; }
+  background: #f26c4f; }
 
+/*#osl p, #osl h2, #osl h3{
+    color: $darktext;
+}*/
 #advanced {
-  background: rgba(43, 54, 74, 0.9); }
+  background: #e9f2f9; }
 
 #entry {
-  background: rgba(43, 54, 74, 0.4); }
+  background: #3a89c9; }
+
+#advanced p, #advanced h2, #advanced h3 {
+  color: #424242; }
 
 #together {
-  background: rgba(43, 54, 74, 0.6); }
+  background: #f26c4f; }
 
 /*#osl::after{
     @extend #about::after;
