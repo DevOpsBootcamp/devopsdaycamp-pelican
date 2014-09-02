@@ -13,6 +13,7 @@ h1 {
   font-size: 4em; }
 
 h2 {
+  margin-top: 1em;
   font-size: 2.5em; }
 
 h3 {
@@ -26,6 +27,7 @@ a {
   font-size: 1.5em; }
 
 p {
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.75em; }
 
 #navbar {
@@ -33,7 +35,7 @@ p {
   width: 100vw;
   margin: 0px;
   padding: 0px;
-  background: #0b486b;
+  background: #2b364a;
   display: inline-block;
   position: fixed;
   z-index: 20; }
@@ -44,25 +46,44 @@ p {
   #navbar img {
     height: 70px; }
   #navbar ul {
-    display: block;
+    display: inline;
     height: 70px;
     margin: 0px; }
   #navbar ul li {
     display: inline-block;
     line-height: 70px;
-    vertical-align: middle; }
+    vertical-align: middle;
+    position: relative; }
   #navbar ul li a {
     text-decoration: none;
     padding: 0px 15px;
-    display: block; }
+    display: block;
+    margin: 0px; }
   #navbar ul li a:hover {
     opacity: .5; }
+  #navbar ul li ul {
+    display: none;
+    position: fixed;
+    top: 70px;
+    padding: 0px;
+    width: 160px; }
+  #navbar ul li ul li {
+    display: block;
+    line-height: 70px;
+    vertical-align: middle;
+    border-top: 1px solid white;
+    background: #2b364a; }
+  #navbar ul li:hover ul {
+    display: block; }
+  #navbar .arrow {
+    font-size: .5em;
+    padding-bottom: 2px; }
 
 #index {
   height: 70vh;
   max-height: 500px;
   display: inline-block;
-  background: #88abc2;
+  background: rgba(43, 54, 74, 0.5);
   width: 100vw;
   padding-top: 5vh;
   margin-top: 70px; }
@@ -111,10 +132,12 @@ p {
 .page {
   max-width: 80vw;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  text-align: justify;
+  line-height: 1.3; }
 
 /*about page styles*/
-#about, #osl {
+#about {
   padding: 0px;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -123,7 +146,7 @@ p {
   width: 100%;
   height: auto;
   display: block;
-  background: #eEeFe7; }
+  background: rgba(43, 54, 74, 0.2); }
 
 /*#about::after{
     content:"";
@@ -142,16 +165,22 @@ p {
     width: 100%;
     padding: 0px;
 }*/
-#about h3, #osl h3, #about p, #osl p {
+#about h3, #about p {
   color: #515151; }
-
-/*Schedule*/
-#schedule {
-  background: #3b8686; }
 
 /*OSL*/
 #osl {
-  background: #A4BCC2; }
+  background: rgba(43, 54, 74, 0.8);
+  color: white; }
+
+#advanced {
+  background: rgba(43, 54, 74, 0.9); }
+
+#entry {
+  background: rgba(43, 54, 74, 0.4); }
+
+#together {
+  background: rgba(43, 54, 74, 0.6); }
 
 /*#osl::after{
     @extend #about::after;

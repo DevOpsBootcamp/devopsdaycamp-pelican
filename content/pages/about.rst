@@ -1,6 +1,7 @@
 About
 #####
 :slug: about
+:type: page
 :order: 1
 
 The OSL is kicking off DevOps BootCamp this year with the brand new DevOps DayCamp! 

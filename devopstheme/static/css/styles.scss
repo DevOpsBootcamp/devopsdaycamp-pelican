@@ -1,12 +1,17 @@
 $bodybg: #fff;
-$primary: #88ABC2;
-$secondary:  #0B486B;
-$schedule: #3B8686;
-$osl: #EB6841;
+$primary: rgba(43, 54, 74, .5);
+$secondary: rgba(43, 54, 74, 1); //#0B486B;
 $navheight: 70px;
 $darktext: #515151;
 $lighttext: #fff;
 $serif: 'Bitter', serif;
+
+//Colors for different sections
+$about: rgba(43, 54, 74, .2);//#EEEFE7;
+$osl: rgba(43, 54, 74, .8);//#A4BCC2;
+$entry: rgba(43, 54, 74, .4); //#45ADA8;
+$advanced: rgba(43, 54, 74, .9); //#0A0349;
+$both: rgba(43, 54, 74, .6); //#2B717D;
 
 body{
     margin: 0px;
@@ -24,6 +29,7 @@ h1, h2, h3, h4, h5, p, a{
 h1{
     font-size: 4em;}
 h2 { 
+    margin-top: 1em;
     font-size: 2.5em;}
 h3 { 
     font-size: 3em;
@@ -33,6 +39,7 @@ h4{
 a {
     font-size: 1.5em;}
 p {
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.75em;}
 
 
@@ -59,7 +66,7 @@ p {
     }
 
     ul{
-        display: block;
+        display: inline;
         height: $navheight;
         margin: 0px;
     }
@@ -68,16 +75,43 @@ p {
         display: inline-block;
         line-height: $navheight;
         vertical-align: middle;
+        position: relative;
     }
 
     ul li a{
         text-decoration: none;
         padding: 0px 15px;
         display:block;
+        margin: 0px;
     }
 
     ul li a:hover{
         opacity: .5;
+    }
+
+    ul li ul{
+        display:none;
+        position: fixed;
+        top: $navheight;
+        padding: 0px;
+        width: 160px;
+    }
+
+    ul li ul li{
+        display: block;
+        line-height: $navheight;
+        vertical-align: middle;
+        border-top: 1px solid white;
+        background: $secondary;
+    }
+
+    ul li:hover ul{
+        display: block;
+    }
+    
+    .arrow{
+        font-size: .5em;
+        padding-bottom: 2px;
     }
 }
 
@@ -143,6 +177,8 @@ p {
     max-width: 80vw;
     margin-right: auto;
     margin-left: auto;
+    text-align: justify;
+    line-height: 1.3;
 }
 
 /*about page styles*/
@@ -155,7 +191,7 @@ p {
     width: 100%;
     height: auto;
     display: block;
-    background: #eEeFe7;
+    background: $about;
 }
 
 /*#about::after{
@@ -180,15 +216,22 @@ p {
     color: $darktext;
 }
 
-/*Schedule*/
-#schedule{
-    background: $schedule;
-}
-
 /*OSL*/
 #osl{
-    @extend #about;
-    background: #A4BCC2;
+    background: $osl;
+    color: $lighttext;
+}
+
+#advanced{
+    background: $advanced;
+}
+
+#entry{
+    background: $entry;
+}
+
+#together{
+    background: $both;
 }
 
 /*#osl::after{

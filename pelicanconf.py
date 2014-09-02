@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+PATH = 'content'
 AUTHOR = u'Lucy Wyman'
-SITENAME = u'Devops Days'
+SITENAME = u'Devops Daycamp'
 SITEURL = ''
 
 TIMEZONE = 'Europe/Paris'
@@ -25,9 +26,12 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 4
+DEFAULT_PAGINATION = False
+
+PAGE_PATHS = ['pages', 'schedule']
 
 THEME = 'devopstheme'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
