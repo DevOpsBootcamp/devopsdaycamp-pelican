@@ -29,7 +29,6 @@ h1, h2, h3, h4, h5, p, a{
     color: $lighttext;
     margin: 2px;
     font-weight: 600;
-    z-index: 10;
 }
 
 h1{
@@ -58,7 +57,7 @@ p {
     background: $secondary;
     display: inline-block;
     position: fixed;
-    z-index: 20;
+    z-index: 120;
 
     #logo {
         height: $navheight;
@@ -128,8 +127,7 @@ p {
     display: inline-block;
     background: $primary;
     width: 100vw;
-    padding-top: 5vh;
-    margin-top: $navheight;
+    padding: $navheight 0px;
     
     h3, h4{
         line-height: 2em;
@@ -145,11 +143,14 @@ p {
 }
 
 .text{
+    position: relative;
     width: 40%;
-    margin: 0px;
+    margin: 100px 0px 0px 0px;
     margin-left: 10%;
     display: inline-block;
     vertical-align: middle;
+    z-index: 100;
+    text-shadow: -2px 2px 5px #222;
 }
 
 #indexlogo{
@@ -158,7 +159,7 @@ p {
     -o-animation: fly 1s cubic-bezier(0, 0.2, 0.5, 1) 1;
     animation: fly 1s cubic-bezier(0, 0.2, 0.5, 1) 1;
     width: 40%;
-    margin: 0px;
+    margin: 100px 0px 0px 0px;
     margin-right: 10%;
     padding: 0px;
     display: inline-block;
@@ -166,6 +167,7 @@ p {
     position: absolute;
     top: 15vh;
     left: 50vw;
+    z-index: 50;
     
     img{
         width: 80%;
@@ -173,6 +175,40 @@ p {
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
+    }
+}
+
+.cloud{
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    .cloud1{
+        position: absolute;
+        top: -500px;
+        left: -500px;
+        -webkit-animation: float 120s linear 1;
+        -moz-animation: float 120s linear 1;
+        -o-animation: float 120s linear 1;
+        animation: float 120s linear 1;
+        height: 100px;
+    }
+    
+    .cloud2{
+        position: absolute;
+        top: -500px;
+        left: -500px;
+        -webkit-transform: translate(-100%);
+        -moz-transform: translate(-100%);
+        -o-transform: translate(-100%);
+        transform: translate(-100%);
+        -webkit-animation: float 120s linear 1 reverse;
+        -moz-animation: float 120s linear 1 reverse;
+        -o-animation: float 120s linear 1 reverse;
+        animation: float 120s linear 1 reverse;
+        height: 200px;
     }
 }
 
@@ -376,4 +412,45 @@ p {
         top: 15vh;
         left: 50vw;
         }
+}
+
+@-webkit-keyframes float{
+    0%{
+        top: $navheight + 20px;
+        left: 0vw;
+    }
+    100%{
+        top:$navheight + 20px;
+        left: 100vw;
+    }
+}
+@-moz-keyframes float{
+    0%{
+        top: $navheight + 20px;
+        left: 0vw;
+    }
+    100%{
+        top:$navheight + 20px;
+        left: 100vw;
+    }
+}
+@-o-keyframes float{
+    0%{
+        top: $navheight + 20px;
+        left: 0vw;
+    }
+    100%{
+        top:$navheight + 20px;
+        left: 100vw;
+    }
+}
+@keyframes float{
+    0%{
+        top: $navheight + 20px;
+        left: 0vw;
+    }
+    100%{
+        top:$navheight + 20px;
+        left: 100vw;
+    }
 }
