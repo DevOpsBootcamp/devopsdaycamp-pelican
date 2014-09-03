@@ -2,7 +2,7 @@ Beginners
 #########
 :slug: entry
 :type: schedule
-:order: 3
+:order: 4
 
 Introductory Workshop
 ---------------------

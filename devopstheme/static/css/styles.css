@@ -1,3 +1,6 @@
+@font-face {
+  font-family: soho;
+  src: url("../soho.otf") format("opentype"); }
 body {
   margin: 0px;
   padding: 0px;
@@ -5,7 +8,7 @@ body {
   overflow-x: hidden; }
 
 h1, h2, h3, h4, h5, p, a {
-  font-family: "Bitter", serif;
+  font-family: "soho", serif;
   color: white;
   margin: 2px; }
 
@@ -36,7 +39,7 @@ p {
   width: 100vw;
   margin: 0px;
   padding: 0px;
-  background: #1b325f;
+  background: #675040;
   display: inline-block;
   position: fixed;
   z-index: 20; }
@@ -73,7 +76,7 @@ p {
     line-height: 70px;
     vertical-align: middle;
     border-top: 1px solid white;
-    background: #1b325f; }
+    background: #675040; }
   #navbar ul li:hover ul, #navbar ul li ul li:hover ul {
     display: block; }
   #navbar .arrow {
@@ -84,7 +87,7 @@ p {
   height: 70vh;
   max-height: 500px;
   display: inline-block;
-  background: #3a89c9;
+  background: #9cc5c9;
   width: 100vw;
   padding-top: 5vh;
   margin-top: 70px; }
@@ -147,7 +150,7 @@ p {
   width: 100%;
   height: auto;
   display: block;
-  background: #e9f2f9; }
+  background: #e0c399; }
 
 /*#about::after{
     content:"";
@@ -166,27 +169,21 @@ p {
     width: 100%;
     padding: 0px;
 }*/
-#about h3, #about p {
-  color: #424242; }
-
 /*OSL*/
 #osl {
-  background: #f26c4f; }
+  background: #efb112; }
 
-/*#osl p, #osl h2, #osl h3{
-    color: $darktext;
-}*/
 #advanced {
-  background: #e9f2f9; }
+  background: #9cc5c9; }
 
 #entry {
-  background: #3a89c9; }
+  background: #acafa6; }
 
-#advanced p, #advanced h2, #advanced h3 {
-  color: #424242; }
+#osl p, #osl h3, #osl h2, #about p, #about h3, #about h2 {
+  color: #373737; }
 
 #together {
-  background: #f26c4f; }
+  background: #5d87a0; }
 
 /*#osl::after{
     @extend #about::after;
