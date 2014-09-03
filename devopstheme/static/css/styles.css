@@ -9,30 +9,32 @@ body {
 
 h1, h2, h3, h4, h5, p, a {
   font-family: "soho", serif;
-  color: white;
-  margin: 2px; }
+  color: #f5f2ed;
+  margin: 2px;
+  font-weight: 600;
+  z-index: 10; }
 
 h1 {
-  font-size: 40pt; }
+  font-size: 46pt; }
 
 h2 {
   margin-top: 1em;
-  font-size: 24pt; }
+  font-size: 30pt; }
 
 h3 {
-  font-size: 36pt;
+  font-size: 42pt;
   margin: auto; }
 
 h4 {
-  font-size: 20pt; }
+  font-size: 26pt; }
 
 a {
-  font-size: 16pt; }
+  font-size: 18pt; }
 
 p {
   line-height: 1.3em;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16pt; }
+  font-size: 18pt; }
 
 #navbar {
   height: 70px;
@@ -133,62 +135,43 @@ p {
 .article {
   padding: 5% 10vw; }
 
+.parallax {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
+
 .page {
   max-width: 80vw;
   margin-right: auto;
   margin-left: auto;
   text-align: justify;
-  line-height: 1.3; }
+  line-height: 1.3;
+  padding: 15px; }
 
-/*about page styles*/
 #about {
-  padding: 0px;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  position: relative;
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  display: block;
-  background: #e0c399; }
+  background-image: url("../img/osuosltransparent.jpg");
+  box-shadow: inset 0 0 1em #111; }
 
-/*#about::after{
-    content:"";
-    background-image: url('../img/devops.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    opacity: .4;
-    z-index: -1;
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-    position: absolute;
-    display: block;
-    max-width: 100vw;
-    width: 100%;
-    padding: 0px;
-}*/
-/*OSL*/
+#about div, #entry .page {
+  margin: 50px 0px;
+  background: rgba(255, 255, 255, 0.7); }
+
+#about p, #about h3, #entry p, #entry h3, #entry h2 {
+  color: #373737; }
+
 #osl {
-  background: #efb112; }
+  background: #acafa6; }
 
 #advanced {
   background: #9cc5c9; }
 
 #entry {
-  background: #acafa6; }
-
-#osl p, #osl h3, #osl h2, #about p, #about h3, #about h2 {
-  color: #373737; }
+  background-image: url("../img/devopstransparent.jpg");
+  box-shadow: inset 0 0 1em #111; }
 
 #together {
   background: #5d87a0; }
 
-/*#osl::after{
-    @extend #about::after;
-    background-image: url('../img/osuoslbig.jpg');
-}*/
 /*Animation of paper airplane*/
 /*@keyframes loop{
     0%{

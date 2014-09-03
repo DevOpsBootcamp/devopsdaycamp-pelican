@@ -5,18 +5,17 @@
 
 $bodybg: #fff;
 $primary: #9CC5C9;
-$secondary: #675040; //#0B486B;
+$secondary: #675040;
 $navheight: 70px;
 $darktext: #373737;
-$lighttext: #fff;
+$lighttext: #F5F2ED;
 $serif: 'soho', serif;
 
 //Colors for different sections
-$about: #E0C399;//#547980;#EEEFE7;
-$osl: #EFB112;//#A4BCC2;
-$both: #5D87A0; //#2B717D;
-$entry: #ACAFA6; //#45ADA8;
-$advanced: #9CC5C9; //#0A0349;
+$about: #E0C399;;
+$both: #5D87A0; 
+$osl: #ACAFA6; 
+$advanced: #9CC5C9;
 
 body{
     margin: 0px;
@@ -29,25 +28,26 @@ h1, h2, h3, h4, h5, p, a{
     font-family: $serif;
     color: $lighttext;
     margin: 2px;
-    //line-height: 1.3em;
+    font-weight: 600;
+    z-index: 10;
 }
 
 h1{
-    font-size: 40pt;}
+    font-size: 46pt;}
 h2 { 
     margin-top: 1em;
-    font-size: 24pt;}
+    font-size: 30pt;}
 h3 { 
-    font-size: 36pt;
+    font-size: 42pt;
     margin: auto;}
 h4{
-    font-size: 20pt;}
+    font-size: 26pt;}
 a {
-    font-size: 16pt;}
+    font-size: 18pt;}
 p {
     line-height: 1.3em;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16pt;}
+    font-size: 18pt;}
 
 
 #navbar{
@@ -180,47 +180,35 @@ p {
     padding: 5% 10vw;
 }
 
+.parallax{
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
 .page{
     max-width: 80vw;
     margin-right: auto;
     margin-left: auto;
     text-align: justify;
     line-height: 1.3;
+    padding: 15px;
 }
 
-/*about page styles*/
 #about{
-    padding: 0px;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    position: relative;
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    display: block;
-    background: $about;
+    background-image: url('../img/osuosltransparent.jpg');
+    box-shadow: inset 0 0 1em #111;
 }
 
-/*#about::after{
-    content:"";
-    background-image: url('../img/devops.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    opacity: .4;
-    z-index: -1;
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-    position: absolute;
-    display: block;
-    max-width: 100vw;
-    width: 100%;
-    padding: 0px;
-}*/
+#about div, #entry .page{
+    margin: 50px 0px;
+    background: rgba(255, 255, 255, .7);
+}
 
+#about p, #about h3, #entry p, #entry h3, #entry h2 {
+    color: $darktext;
+}
 
-/*OSL*/
 #osl{
     background: $osl;
 }
@@ -230,21 +218,13 @@ p {
 }
 
 #entry{
-    background: $entry;
+    background-image: url('../img/devopstransparent.jpg');
+    box-shadow: inset 0 0 1em #111;
 }
-
-#osl p, #osl h3, #osl h2, #about p, #about h3, #about h2{
-   color: $darktext;
-  } 
 
 #together{
     background: $both;
 }
-
-/*#osl::after{
-    @extend #about::after;
-    background-image: url('../img/osuoslbig.jpg');
-}*/
 
 /*Animation of paper airplane*/
 /*@keyframes loop{

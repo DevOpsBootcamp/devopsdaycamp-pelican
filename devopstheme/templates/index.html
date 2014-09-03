@@ -14,7 +14,7 @@
     </div>
 </div>
 {% for page in pages | sort(attribute='order') %}
-<section id='{{ page.slug }}' class='article' name='{{ page.slug }}'>
+<section id='{{ page.slug }}' class='article {% if page.parallax %} parallax {% endif %}' name='{{ page.slug }}'>
 <div class='page'>
     <h3 class='title'>{{ page.title }}</h3>
     {{ page.content }}
