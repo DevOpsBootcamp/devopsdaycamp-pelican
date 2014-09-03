@@ -1,8 +1,8 @@
-Everyone
+Schedule
 ########
 :slug: together
 :type: schedule
-:order: 5
+:order: 3
 
 Opening Remarks and Coffee
 --------------------------

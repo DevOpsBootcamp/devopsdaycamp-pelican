@@ -1,17 +1,22 @@
+@font-face{
+   font-family: soho;
+   src: url('../soho.otf') format('opentype');
+   }
+
 $bodybg: #fff;
-$primary: #3A89C9;
-$secondary: #1B325F; //#0B486B;
+$primary: #9CC5C9;
+$secondary: #675040; //#0B486B;
 $navheight: 70px;
-$darktext: #424242;
+$darktext: #373737;
 $lighttext: #fff;
-$serif: 'Bitter', serif;
+$serif: 'soho', serif;
 
 //Colors for different sections
-$about: #E9F2F9;//#547980;#EEEFE7;
-$osl: #F26C4F;//#A4BCC2;
-$entry: #3A89C9; //#45ADA8;
-$advanced: #E9F2F9; //#0A0349;
-$both: #F26C4F; //#2B717D;
+$about: #E0C399;//#547980;#EEEFE7;
+$osl: #EFB112;//#A4BCC2;
+$both: #5D87A0; //#2B717D;
+$entry: #ACAFA6; //#45ADA8;
+$advanced: #9CC5C9; //#0A0349;
 
 body{
     margin: 0px;
@@ -214,18 +219,11 @@ p {
     padding: 0px;
 }*/
 
-#about h3, #about p{
-    color: $darktext;
-}
 
 /*OSL*/
 #osl{
     background: $osl;
 }
-
-/*#osl p, #osl h2, #osl h3{
-    color: $darktext;
-}*/
 
 #advanced{
     background: $advanced;
@@ -235,9 +233,9 @@ p {
     background: $entry;
 }
 
-#advanced p, #advanced h2, #advanced h3{
-    color: $darktext;
-}
+#osl p, #osl h3, #osl h2, #about p, #about h3, #about h2{
+   color: $darktext;
+  } 
 
 #together{
     background: $both;

@@ -2,7 +2,7 @@ Advanced
 ########
 :slug: advanced
 :type: schedule
-:order: 4
+:order: 5
 
 Ansible
 -------

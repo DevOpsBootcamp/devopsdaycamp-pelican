@@ -20,7 +20,7 @@
                 <li><a href='#{{ page.slug }}'>{{ page.title }}</a></li>
                 {% endif %}
                 {% endfor %}
-                <li><a href='#schedule'>Schedule <span class='arrow'>&#9660;<span></a>
+                <li><a href='#entry'>Schedule <span class='arrow'>&#9660;<span></a>
                         <ul>
                             {% for p in pages |sort(attribute="order")%}
                             {% if p.type == 'schedule' %}
