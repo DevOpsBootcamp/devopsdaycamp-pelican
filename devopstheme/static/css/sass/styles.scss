@@ -7,12 +7,13 @@ $bodybg: #fff;
 $primary: #9CC5C9;
 $secondary: #675040;
 $navheight: 70px;
+$menuwidth: 200px;
 $darktext: #373737;
 $lighttext: #F5F2ED;
-$serif: 'soho', serif;
+$serif: 'Bitter', serif;
 
 //Colors for different sections
-$about: #E0C399;;
+$about: #f5f2ed;
 $both: #5D87A0; 
 $osl: #ACAFA6; 
 $advanced: #9CC5C9;
@@ -24,7 +25,7 @@ body{
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, p, a{
+h1, h2, h3, h4, h5, p, a, label{
     font-family: $serif;
     color: $lighttext;
     margin: 2px;
@@ -48,6 +49,8 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18pt;}
 
+#check{
+    display:none;}
 
 #navbar{
     height: $navheight;
@@ -71,13 +74,14 @@ p {
         height: $navheight;
     }
 
-    ul{
-        display: block;
+    ul, .menu{
+        display: inline-block;
         height: $navheight;
         margin: 0px;
+        padding: 0px;
     }
 
-    ul li{
+    ul li, .logo{
         display: inline-block;
         line-height: $navheight;
         vertical-align: middle;
@@ -86,7 +90,7 @@ p {
 
     ul li a{
         text-decoration: none;
-        padding: 0px 15px;
+        padding: 0px 10%;
         display:block;
         margin: 0px;
     }
@@ -122,8 +126,7 @@ p {
 }
 
 #index{
-    height: 70vh;
-    max-height: 500px;
+    height: 500px;
     display: inline-block;
     background: $primary;
     width: 100vw;
@@ -453,4 +456,116 @@ p {
         top:$navheight + 20px;
         left: 100vw;
     }
+}
+
+.menu-button{
+    display: none;
+    width: $menuwidth;
+    border-radius: 10px;
+    background: $primary;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    line-height: $navheight;
+}
+
+/*Responsive design!*/
+@media screen and (max-width: 760px){
+$navheight: 104px; 
+
+#navbar .menu{
+    display: block;
+    margin: 15px auto;
+    width: $menuwidth;
+}
+
+.menu-button{
+    display: block;
+    vertical-align: middle;
+}
+
+#navbar .logo, .cloud, #indexlogo{
+    display: none;
+}
+
+#navbar{
+    height: $navheight;
+    position: absolute;
+}
+
+#navbar ul, #navbar ul li ul{
+    display: none;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    width: $menuwidth;
+    position: absolute;
+}
+
+#navbar ul li ul{
+    position: absolute;
+    margin-top: -71px;
+}
+
+#navbar ul li, #navbar ul li ul li{
+    display: block;
+    line-height: $navheight;
+    vertical-align: middle;
+    border-top: 1px solid white;
+    background: $osl;
+}
+
+.menu-button:hover{
+    border-radius: 10px;
+    background: $osl;
+}
+
+#navbar .menu:focus,
+#navbar .menu:active,
+#navbar .menu input:checked{
+    ~ ul, ~ ul li ul {
+        display: block;
+    }
+
+    + .menu-button {
+        border-radius: 10px 10px 0px 0px;
+        background:$osl;
+    }
+}
+
+#about, #entry {
+    background: $about; 
+    box-shadow: 0px 0px 0em;
+
+    p, h2, h3 {
+        //color: $lighttext;
+    }
+}
+
+/*Responsive Typography*/
+h1{
+    font-size: 36pt;}
+h2{
+    font-size: 24pt;}
+h3{
+    font-size: 30pt;}
+h4, label{
+    margin: 0px;
+    font-size: 18pt;}
+p, a{
+    font-size: 16pt;}
+
+.arrow{
+    display: none;}
+
+.page{
+    max-width: 90vw;
+    margin: 50px 0px;
+    padding: 0px;}
+
+.page, #about div, #entry .page{
+    text-align: left;
+    background: rgba(255, 255, 255, 0);
+}
 }

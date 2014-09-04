@@ -3,8 +3,8 @@
     <head>
         <title>{{ SITENAME }} </title>
         <meta charset='utf-8'>
-        <link rel='stylesheet' href='{{ SITEURL }}/theme/css/styles.css' type='text/css'>
-        <meta name='viewport' content='width=device-width'>
+        <link rel='stylesheet' href='{{ SITEURL }}/theme/css/stylesheets/styles.css' type='text/css'>
+        <meta name='viewport' content='width=device-width' />
 
         <!--Google Fonts-->
         <link href='http://fonts.googleapis.com/css?family=Bitter|Open+Sans' rel='stylesheet' type='text/css'>
@@ -12,24 +12,28 @@
 
     <body>
         <div id='navbar'>
-            <ul>
-                <li><a href='http://osuosl.org' id='logo'><img src='{{ SITEURL }}/theme/img/logo.png'></a></li>
-                <li><a href='{{ SITEURL }}'>Home</a></li>
-                {% for page in pages |sort(attribute="order")%}
-                {% if page.type == 'page' %}
-                <li><a href='#{{ page.slug }}'>{{ page.title }}</a></li>
-                {% endif %}
-                {% endfor %}
-                <li><a href='#schedule'>Schedule <span class='arrow'>&#9660;<span></a>
-                        <ul>
-                            {% for p in pages |sort(attribute="order")%}
-                            {% if p.type == 'schedule' %}
-                            <li><a href='#{{ p.slug }}'>{{ p.title }}</a></li>
-                            {% endif %}
-                            {% endfor %}
+            <li class='logo'><a href='http://osuosl.org' id='logo'><img src='{{ SITEURL }}/theme/img/logo.png'></a></li>
+            <div class='menu'>
+                    <input id='check' type=checkbox></input>
+                    <label class='menu-button' for='check'>Menu</label>
+                <ul>
+                    <li><a href='{{ SITEURL }}'>Home</a></li>
+                    {% for page in pages |sort(attribute="order")%}
+                    {% if page.type == 'page' %}
+                    <li><a href='#{{ page.slug }}'>{{ page.title }}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                    <li><a href='#schedule'>Schedule <span class='arrow'>&#9660;<span></a>
+                            <ul>
+                                {% for p in pages |sort(attribute="order")%}
+                                {% if p.type == 'schedule' %}
+                                <li><a href='#{{ p.slug }}'>{{ p.title }}</a></li>
+                                {% endif %}
+                                {% endfor %}
+                            </ul>
+                            </li>
                         </ul>
-                        </li>
-                    </ul>
+                    </div>
                 </div>
 
                 {% block content %}

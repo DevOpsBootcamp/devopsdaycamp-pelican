@@ -50,18 +50,19 @@ p {
     opacity: 1; }
   #navbar img {
     height: 70px; }
-  #navbar ul {
-    display: block;
+  #navbar ul, #navbar .menu {
+    display: inline-block;
     height: 70px;
-    margin: 0px; }
-  #navbar ul li {
+    margin: 0px;
+    padding: 0px; }
+  #navbar ul li, #navbar .logo {
     display: inline-block;
     line-height: 70px;
     vertical-align: middle;
     position: relative; }
   #navbar ul li a {
     text-decoration: none;
-    padding: 0px 15px;
+    padding: 0px 10%;
     display: block;
     margin: 0px; }
   #navbar ul li a:hover {
@@ -85,8 +86,7 @@ p {
     padding-bottom: 2px; }
 
 #index {
-  height: 70vh;
-  max-height: 500px;
+  height: 500px;
   display: inline-block;
   background: #9cc5c9;
   width: 100vw;
@@ -374,3 +374,52 @@ p {
   100% {
     top: 90px;
     left: 100vw; } }
+.menu-button {
+  display: none;
+  width: 60%;
+  margin: 20px auto;
+  border-radius: 10px;
+  background: #9cc5c9; }
+
+.menu-button a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 70px; }
+
+/*Responsive design!*/
+@media only screen and (max-width: 760px) {
+  .menu-button {
+    display: block; }
+
+  #navbar .logo, .cloud, #indexlogo {
+    display: none; }
+
+  #navbar {
+    height: auto; }
+
+  #navbar ul {
+    display: none;
+    margin-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    width: 160px; }
+
+  #navbar ul li {
+    display: block;
+    line-height: 70px;
+    vertical-align: middle;
+    border-top: 1px solid white;
+    background: #999; }
+
+  .menu-button a:hover {
+    border-radius: 10px;
+    background: #999; }
+
+  .menu-button a:hover + #navbar ul {
+    display: block; }
+
+  /*Responsive Typography*/ }
