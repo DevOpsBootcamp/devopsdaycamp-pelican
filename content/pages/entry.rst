@@ -3,7 +3,6 @@ Beginners
 :slug: entry
 :type: schedule
 :order: 4
-:parallax: 1
 
 Introductory Workshop
 ---------------------
@@ -16,6 +15,9 @@ Single System Fundamentals Workshop
 -----------------------------------
 *12:30 - 2:30*
 
+In this workshop we'll explore the basics of Linux System fundamentals such as
+file permissions, users, groups, package management and a few other misc related
+topics.
 
 Text Editors Workshop
 ---------------------
