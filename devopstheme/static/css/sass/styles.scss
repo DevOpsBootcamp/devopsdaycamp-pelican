@@ -1,7 +1,7 @@
 @font-face{
-   font-family: soho;
-   src: url('../soho.otf') format('opentype');
-   }
+    font-family: soho;
+    src: url('../soho.otf') format('opentype');
+}
 
 $bodybg: #fff;
 $primary: #9CC5C9;
@@ -50,7 +50,7 @@ p {
     font-size: 18pt;}
 
 #check{
-    display:none;}
+display:none;}
 
 #navbar{
     height: $navheight;
@@ -62,11 +62,14 @@ p {
     position: fixed;
     z-index: 120;
 
-    #logo {
+    .logo {
         height: $navheight;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
     }
-    
-    #logo:hover{
+
+    .logo:hover{
         opacity: 1;
     }
 
@@ -76,12 +79,12 @@ p {
 
     ul, .menu{
         display: inline-block;
-        height: $navheight;
+        //height: $navheight;
         margin: 0px;
         padding: 0px;
     }
 
-    ul li, .logo{
+    ul li{
         display: inline-block;
         line-height: $navheight;
         vertical-align: middle;
@@ -118,7 +121,7 @@ p {
     ul li:hover ul, ul li ul li:hover ul{
         display: block;
     }
-    
+
     .arrow{
         font-size: .5em;
         padding-bottom: 2px;
@@ -131,18 +134,18 @@ p {
     background: $primary;
     width: 100vw;
     padding: $navheight 0px;
-    
+
     h3, h4{
         line-height: 2em;
     }
 }
 
 #index:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em; /* Adjusts for spacing */
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
 }
 
 .text{
@@ -171,7 +174,7 @@ p {
     top: 15vh;
     left: 50vw;
     z-index: 50;
-    
+
     img{
         width: 80%;
         height: 80%;
@@ -198,7 +201,7 @@ p {
         animation: float 120s linear 1;
         height: 100px;
     }
-    
+
     .cloud2{
         position: absolute;
         top: -500px;
@@ -267,305 +270,313 @@ p {
 
 /*Animation of paper airplane*/
 /*@keyframes loop{
-    0%{
-        top: 0vh;
-        left: 7.1vw;
-        transform: rotate(180deg);
-        }
-    5%{
-        top: 5.03vh;
-        left: -5.65vw;
-        transform: rotate(171deg);
-        }   
-    10%{
-        top: 11.45vh;
-        left: -10.16vw;
-        transform: rotate(162deg);
-        }
-    15%{
-        top: 18.89vh;
-        left: -13.28vw;
-        transform: rotate(153deg);
-        }
-    20%{
-        top: 26.9vh;
-        left: -14.83vw;
-        transform: rotate(144deg);
-        }
-    25%{
-        top: 35.17vh;
-        left: -14.74vw;
-        transform: rotate(135deg);
-        }
-    30%{
-        top: 43.11vh;
-        left: -13vw;
-        transform: rotate(126deg);
-        }
-    35%{
-        top: 50.32vh;
-        left: -9.72vw;
-        transform: rotate(117deg);
-        }
-    40%{
-        top: 56.41vh;
-        left: -5.08vw;
-        transform: rotate(108deg);
-        }
-    45%{
-        top: 61.04vh;
-        left: 0.68vw;
-        transform: rotate(99deg);
-        }
-    50%{
-        top: 63.96vh;
-        left: 7.23vw;
-        transform: rotate(90deg);
-        }
-    55%{
-        top: 65vh;
-        left: 14.21vw;
-        transform: rotate(81deg);
-        }
-    60%{
-        top: 64.1vh;
-        left: 21.23vw;
-        transform: rotate(72deg);
-        }
-    65%{
-        top: 61.32vh;
-        left: 27.9vw;
-        transform: rotate(63deg);
-        }
-    70%{
-        top: 56.8vh;
-        left: 33.87vw;
-        transform: rotate(54deg);
-        }
-    75%{
-        top: 50.8vh;
-        left: 38.8vw;
-        transform: rotate(45deg);
-        }
-    80%{
-        top: 43.67vh;
-        left: 42.4vw;
-        transform: rotate(36deg);
-        }
-    85%{
-        top: 35.77vh;
-        left: 44.49vw;
-        transform: rotate(27deg);
-        }
-    90%{
-        top: 27.55vh;
-        left: 44.95vw;
-        transform: rotate(18deg);
-        }
-    95%{
-        top: 19.4vh;
-        left: 45vw;
-        transform: rotate(9deg);
-        }
-    100%{
-        top: 15vh;
-        left: 50vw;
-        }
-    }*/
+0%{
+top: 0vh;
+left: 7.1vw;
+transform: rotate(180deg);
+}
+5%{
+top: 5.03vh;
+left: -5.65vw;
+transform: rotate(171deg);
+}   
+10%{
+top: 11.45vh;
+left: -10.16vw;
+transform: rotate(162deg);
+}
+15%{
+top: 18.89vh;
+left: -13.28vw;
+transform: rotate(153deg);
+}
+20%{
+top: 26.9vh;
+left: -14.83vw;
+transform: rotate(144deg);
+}
+25%{
+top: 35.17vh;
+left: -14.74vw;
+transform: rotate(135deg);
+}
+30%{
+top: 43.11vh;
+left: -13vw;
+transform: rotate(126deg);
+}
+35%{
+top: 50.32vh;
+left: -9.72vw;
+transform: rotate(117deg);
+}
+40%{
+top: 56.41vh;
+left: -5.08vw;
+transform: rotate(108deg);
+}
+45%{
+top: 61.04vh;
+left: 0.68vw;
+transform: rotate(99deg);
+}
+50%{
+top: 63.96vh;
+left: 7.23vw;
+transform: rotate(90deg);
+}
+55%{
+top: 65vh;
+left: 14.21vw;
+transform: rotate(81deg);
+}
+60%{
+top: 64.1vh;
+left: 21.23vw;
+transform: rotate(72deg);
+}
+65%{
+top: 61.32vh;
+left: 27.9vw;
+transform: rotate(63deg);
+}
+70%{
+top: 56.8vh;
+left: 33.87vw;
+transform: rotate(54deg);
+}
+75%{
+top: 50.8vh;
+left: 38.8vw;
+transform: rotate(45deg);
+}
+80%{
+top: 43.67vh;
+left: 42.4vw;
+transform: rotate(36deg);
+}
+85%{
+top: 35.77vh;
+left: 44.49vw;
+transform: rotate(27deg);
+}
+90%{
+top: 27.55vh;
+left: 44.95vw;
+transform: rotate(18deg);
+}
+95%{
+top: 19.4vh;
+left: 45vw;
+transform: rotate(9deg);
+}
+100%{
+top: 15vh;
+left: 50vw;
+}
+}*/
 
-@keyframes fly{
-    0%{
-        top: 80vh;
-        left: -20vw;
-      }
-    100%{
-        top: 15vh;
-        left: 50vw;
+    @keyframes fly{
+        0%{
+            top: 80vh;
+            left: -20vw;
         }
-}
-
-@-webkit-keyframes fly{
-    0%{
-        top: 80vh;
-        left: -20vw;
-      }
-    100%{
-        top: 15vh;
-        left: 50vw;
+        100%{
+            top: 15vh;
+            left: 50vw;
         }
-}
-
-@-moz-keyframes fly{
-    0%{
-        top: 80vh;
-        left: -20vw;
-      }
-    100%{
-        top: 15vh;
-        left: 50vw;
-        }
-}
-
-@-o-keyframes fly{
-    0%{
-        top: 80vh;
-        left: -20vw;
-      }
-    100%{
-        top: 15vh;
-        left: 50vw;
-        }
-}
-
-@-webkit-keyframes float{
-    0%{
-        top: $navheight + 20px;
-        left: 0vw;
-    }
-    100%{
-        top:$navheight + 20px;
-        left: 100vw;
-    }
-}
-@-moz-keyframes float{
-    0%{
-        top: $navheight + 20px;
-        left: 0vw;
-    }
-    100%{
-        top:$navheight + 20px;
-        left: 100vw;
-    }
-}
-@-o-keyframes float{
-    0%{
-        top: $navheight + 20px;
-        left: 0vw;
-    }
-    100%{
-        top:$navheight + 20px;
-        left: 100vw;
-    }
-}
-@keyframes float{
-    0%{
-        top: $navheight + 20px;
-        left: 0vw;
-    }
-    100%{
-        top:$navheight + 20px;
-        left: 100vw;
-    }
-}
-
-.menu-button{
-    display: none;
-    width: $menuwidth;
-    border-radius: 10px;
-    background: $primary;
-    position: absolute;
-    text-align: center;
-    text-decoration: none;
-    line-height: $navheight;
-}
-
-/*Responsive design!*/
-@media screen and (max-width: 760px){
-$navheight: 104px; 
-
-#navbar .menu{
-    display: block;
-    margin: 15px auto;
-    width: $menuwidth;
-}
-
-.menu-button{
-    display: block;
-    vertical-align: middle;
-}
-
-#navbar .logo, .cloud, #indexlogo{
-    display: none;
-}
-
-#navbar{
-    height: $navheight;
-    position: absolute;
-}
-
-#navbar ul, #navbar ul li ul{
-    display: none;
-    margin-top: 70px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0px;
-    width: $menuwidth;
-    position: absolute;
-}
-
-#navbar ul li ul{
-    position: absolute;
-    margin-top: -71px;
-}
-
-#navbar ul li, #navbar ul li ul li{
-    display: block;
-    line-height: $navheight;
-    vertical-align: middle;
-    border-top: 1px solid white;
-    background: $osl;
-}
-
-.menu-button:hover{
-    border-radius: 10px;
-    background: $osl;
-}
-
-#navbar .menu:focus,
-#navbar .menu:active,
-#navbar .menu input:checked{
-    ~ ul, ~ ul li ul {
-        display: block;
     }
 
-    + .menu-button {
-        border-radius: 10px 10px 0px 0px;
-        background:$osl;
+    @-webkit-keyframes fly{
+        0%{
+            top: 80vh;
+            left: -20vw;
+        }
+        100%{
+            top: 15vh;
+            left: 50vw;
+        }
     }
-}
 
-#about, #entry {
-    background: $about; 
-    box-shadow: 0px 0px 0em;
-
-    p, h2, h3 {
-        //color: $lighttext;
+    @-moz-keyframes fly{
+        0%{
+            top: 80vh;
+            left: -20vw;
+        }
+        100%{
+            top: 15vh;
+            left: 50vw;
+        }
     }
-}
 
-/*Responsive Typography*/
-h1{
-    font-size: 36pt;}
-h2{
-    font-size: 24pt;}
-h3{
-    font-size: 30pt;}
-h4, label{
-    margin: 0px;
-    font-size: 18pt;}
-p, a{
-    font-size: 16pt;}
+    @-o-keyframes fly{
+        0%{
+            top: 80vh;
+            left: -20vw;
+        }
+        100%{
+            top: 15vh;
+            left: 50vw;
+        }
+    }
 
-.arrow{
-    display: none;}
+    @-webkit-keyframes float{
+        0%{
+            top: $navheight + 20px;
+            left: 0vw;
+        }
+        100%{
+            top:$navheight + 20px;
+            left: 100vw;
+        }
+    }
+    @-moz-keyframes float{
+        0%{
+            top: $navheight + 20px;
+            left: 0vw;
+        }
+        100%{
+            top:$navheight + 20px;
+            left: 100vw;
+        }
+    }
+    @-o-keyframes float{
+        0%{
+            top: $navheight + 20px;
+            left: 0vw;
+        }
+        100%{
+            top:$navheight + 20px;
+            left: 100vw;
+        }
+    }
+    @keyframes float{
+        0%{
+            top: $navheight + 20px;
+            left: 0vw;
+        }
+        100%{
+            top:$navheight + 20px;
+            left: 100vw;
+        }
+    }
 
-.page{
-    max-width: 90vw;
-    margin: 50px 0px;
-    padding: 0px;}
+    .menu-button{
+        display: none;
+        width: $menuwidth;
+        border-radius: 10px;
+        background: $primary;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        line-height: $navheight;
+    }
 
-.page, #about div, #entry .page{
-    text-align: left;
-    background: rgba(255, 255, 255, 0);
-}
-}
+    /*Responsive design!*/
+    @media screen and (max-width: 760px){
+        $navheight: 104px; 
+
+        #navbar .menu{
+            display: block;
+            margin: 15px auto;
+            width: $menuwidth;
+        }
+
+        .menu-button{
+            display: block;
+            vertical-align: middle;
+        }
+
+        #navbar .logo, .cloud, #indexlogo{
+            display: none;
+        }
+
+        #navbar{
+            display: block;
+            position: relative;
+            overflow: auto;
+            height: auto;
+
+            ul, ul li ul{
+                position: relative;
+                display: none;
+                height: auto;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 0px;
+                width: $menuwidth;
+                border-radius: 0px 0px 10px 10px;
+            }
+
+            ul li ul{
+                position: relative;
+                margin-top: -142px;
+                margin-bottom: 100px;
+                padding-bottom: 100px;
+            }
+
+            ul li, ul li ul li{
+                display: block;
+                //line-height: $navheight;
+                vertical-align: middle;
+                border-top: 1px solid white;
+                background: $osl;
+            }
+
+            .menu:focus,
+            .menu:active,
+            .menu input:checked{
+                ~ ul, ~ ul li ul {
+                    display: block;
+                }
+
+                + .menu-button {
+                    border-radius: 10px 10px 0px 0px;
+                    background:$osl;
+                }
+            }
+        }
+        .menu-button:hover{
+            border-radius: 10px;
+            background: $osl;
+        }
+
+        #about, #entry {
+            background: $about; 
+            box-shadow: 0px 0px 0em;
+
+            p, h2, h3 {
+                //color: $lighttext;
+            }
+        }
+
+        /*Responsive Typography*/
+        h1{
+        font-size: 36pt;}
+        h2{
+        font-size: 24pt;}
+        h3{
+        font-size: 30pt;}
+        h4, label{
+            margin: 0px;
+        font-size: 18pt;}
+        p, a{
+        font-size: 16pt;}
+
+        .arrow{
+        display: none;}
+
+        .page{
+            max-width: 90vw;
+            margin: 50px 0px;
+        padding: 0px;}
+
+        .page, #about div, #entry .page{
+            text-align: left;
+            background: rgba(255, 255, 255, 0);
+        }
+
+        .text{
+            margin: 0px 0px 0px 10%;
+        }
+    }
