@@ -18,7 +18,7 @@ The Ansible project describes itself as “a radically simple IT automation plat
 
 Travis CI
 ---------
-*Michael Cooper*
+*Mike Cooper*
 
 *12:30 - 2:30*
 
