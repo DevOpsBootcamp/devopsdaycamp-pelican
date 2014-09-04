@@ -13,10 +13,11 @@ $serif: 'soho', serif;
 
 //Colors for different sections
 $about: #E0C399;//#547980;#EEEFE7;
-$osl: #EFB112;//#A4BCC2;
+$osl: #675040;//#A4BCC2;
 $both: #5D87A0; //#2B717D;
 $entry: #ACAFA6; //#45ADA8;
 $advanced: #9CC5C9; //#0A0349;
+$lounge: #E0C399;
 
 body{
     margin: 0px;
@@ -101,7 +102,7 @@ p {
         position: fixed;
         top: $navheight;
         padding: 0px;
-        width: 160px;
+        width: 220px;
     }
 
     ul li ul li{
@@ -233,12 +234,16 @@ p {
     background: $entry;
 }
 
-#osl p, #osl h3, #osl h2, #about p, #about h3, #about h2{
+#hacker-lounge p, #hacker-lounge h3, #hacker-lounge h2, #about p, #about h3, #about h2{
    color: $darktext;
   } 
 
 #together{
     background: $both;
+}
+
+#hacker-lounge{
+    background: $lounge;
 }
 
 /*#osl::after{

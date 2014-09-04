@@ -32,9 +32,5 @@ Session 3
 ---------
 *4:00 - 6:00*
 
-Hacker Lounge
--------------
-*All day*
-
 
 

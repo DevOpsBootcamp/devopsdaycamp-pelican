@@ -1,2 +1,0 @@
-To compile sass: 
-    sass styles.scss styles.css

@@ -70,7 +70,7 @@ p {
     position: fixed;
     top: 70px;
     padding: 0px;
-    width: 160px; }
+    width: 220px; }
   #navbar ul li ul li {
     display: block;
     line-height: 70px;
@@ -171,7 +171,7 @@ p {
 }*/
 /*OSL*/
 #osl {
-  background: #efb112; }
+  background: #675040; }
 
 #advanced {
   background: #9cc5c9; }
@@ -179,11 +179,14 @@ p {
 #entry {
   background: #acafa6; }
 
-#osl p, #osl h3, #osl h2, #about p, #about h3, #about h2 {
+#hacker-lounge p, #hacker-lounge h3, #hacker-lounge h2, #about p, #about h3, #about h2 {
   color: #373737; }
 
 #together {
   background: #5d87a0; }
+
+#hacker-lounge {
+  background: #e0c399; }
 
 /*#osl::after{
     @extend #about::after;

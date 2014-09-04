@@ -14,7 +14,7 @@
         <div id='navbar'>
             <ul>
                 <li><a href='http://osuosl.org' id='logo'><img src='{{ SITEURL }}/theme/img/logo.png'></a></li>
-                <li><a href='{{ SITEURL }}'>Home</a></li>
+                <li><a href='{{ SITEURL }}/index.html'>Home</a></li>
                 {% for page in pages |sort(attribute="order")%}
                 {% if page.type == 'page' %}
                 <li><a href='#{{ page.slug }}'>{{ page.title }}</a></li>
