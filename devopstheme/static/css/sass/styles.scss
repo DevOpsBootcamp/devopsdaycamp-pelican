@@ -1,6 +1,8 @@
+@import 'normalize';
+
 @font-face{
     font-family: soho;
-    src: url('../soho.otf') format('opentype');
+    src: url('/soho.otf') format('opentype');
 }
 
 $bodybg: #fff;
@@ -17,12 +19,24 @@ $about: #f5f2ed;
 $both: #5D87A0; 
 $osl: #ACAFA6; 
 $advanced: #9CC5C9;
+$hacker: #e0c399;
+
+//Picture urls
+$abouturl: url('../../img/osuosltransparent.jpg');
+$devopsurl: url('../../img/devopstransparent.jpg');
 
 body{
     margin: 0px;
     padding: 0px;
     font-size: 100%;
     overflow-x: hidden;
+}
+
+html{
+    margin: 0px !important;
+    padding: 0px !important;
+    -webkit-margin: 0px;
+    -webkit-padding: 0px;
 }
 
 h1, h2, h3, h4, h5, p, a, label{
@@ -33,28 +47,28 @@ h1, h2, h3, h4, h5, p, a, label{
 }
 
 h1{
-    font-size: 46pt;}
+font-size: 46pt;}
 h2 { 
     margin-top: 1em;
-    font-size: 30pt;}
+font-size: 30pt;}
 h3 { 
     font-size: 42pt;
-    margin: auto;}
+margin: auto;}
 h4{
-    font-size: 26pt;}
+font-size: 26pt;}
 a {
-    font-size: 18pt;}
+font-size: 18pt;}
 p {
     line-height: 1.3em;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18pt;}
+font-size: 18pt;}
 
 #check{
 display:none;}
 
 #navbar{
     height: $navheight;
-    width: 100vw;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     background: $secondary;
@@ -79,9 +93,9 @@ display:none;}
 
     ul, .menu{
         display: inline-block;
-        //height: $navheight;
         margin: 0px;
         padding: 0px;
+        list-style-type: none;
     }
 
     ul li{
@@ -89,11 +103,12 @@ display:none;}
         line-height: $navheight;
         vertical-align: middle;
         position: relative;
+        text-align: center;
     }
 
     ul li a{
         text-decoration: none;
-        padding: 0px 10%;
+        padding: 0px 20px;
         display:block;
         margin: 0px;
     }
@@ -107,7 +122,7 @@ display:none;}
         position: fixed;
         top: $navheight;
         padding: 0px;
-        width: 160px;
+        width: 260px;
     }
 
     ul li ul li{
@@ -116,6 +131,7 @@ display:none;}
         vertical-align: middle;
         border-top: 1px solid white;
         background: $secondary;
+        text-align: left;
     }
 
     ul li:hover ul, ul li ul li:hover ul{
@@ -132,7 +148,7 @@ display:none;}
     height: 500px;
     display: inline-block;
     background: $primary;
-    width: 100vw;
+    width: 100%;
     padding: $navheight 0px;
 
     h3, h4{
@@ -238,7 +254,7 @@ display:none;}
 }
 
 #about{
-    background-image: url('../img/osuosltransparent.jpg');
+    background-image: $abouturl;
     box-shadow: inset 0 0 1em #111;
 }
 
@@ -247,8 +263,10 @@ display:none;}
     background: rgba(255, 255, 255, .7);
 }
 
-#about p, #about h3, #entry p, #entry h3, #entry h2 {
-    color: $darktext;
+#hacker, #about, #entry{
+    p, h3, h2{
+        color: $darktext;
+    }
 }
 
 #osl{
@@ -260,12 +278,16 @@ display:none;}
 }
 
 #entry{
-    background-image: url('../img/devopstransparent.jpg');
+    background-image: $devopsurl;
     box-shadow: inset 0 0 1em #111;
 }
 
 #together{
     background: $both;
+}
+
+#hacker-lounge{
+    background: $hacker;
 }
 
 /*Animation of paper airplane*/
@@ -376,207 +398,207 @@ left: 50vw;
 }
 }*/
 
-    @keyframes fly{
-        0%{
-            top: 80vh;
-            left: -20vw;
-        }
-        100%{
-            top: 15vh;
-            left: 50vw;
-        }
+@keyframes fly{
+    0%{
+        top: 80vh;
+        left: -20vw;
     }
+    100%{
+        top: 15vh;
+        left: 50vw;
+    }
+}
 
-    @-webkit-keyframes fly{
-        0%{
-            top: 80vh;
-            left: -20vw;
-        }
-        100%{
-            top: 15vh;
-            left: 50vw;
-        }
+@-webkit-keyframes fly{
+    0%{
+        top: 80vh;
+        left: -20vw;
     }
+    100%{
+        top: 15vh;
+        left: 50vw;
+    }
+}
 
-    @-moz-keyframes fly{
-        0%{
-            top: 80vh;
-            left: -20vw;
-        }
-        100%{
-            top: 15vh;
-            left: 50vw;
-        }
+@-moz-keyframes fly{
+    0%{
+        top: 80vh;
+        left: -20vw;
     }
+    100%{
+        top: 15vh;
+        left: 50vw;
+    }
+}
 
-    @-o-keyframes fly{
-        0%{
-            top: 80vh;
-            left: -20vw;
-        }
-        100%{
-            top: 15vh;
-            left: 50vw;
-        }
+@-o-keyframes fly{
+    0%{
+        top: 80vh;
+        left: -20vw;
     }
+    100%{
+        top: 15vh;
+        left: 50vw;
+    }
+}
 
-    @-webkit-keyframes float{
-        0%{
-            top: $navheight + 20px;
-            left: 0vw;
-        }
-        100%{
-            top:$navheight + 20px;
-            left: 100vw;
-        }
+@-webkit-keyframes float{
+    0%{
+        top: $navheight + 20px;
+        left: 0vw;
     }
-    @-moz-keyframes float{
-        0%{
-            top: $navheight + 20px;
-            left: 0vw;
-        }
-        100%{
-            top:$navheight + 20px;
-            left: 100vw;
-        }
+    100%{
+        top:$navheight + 20px;
+        left: 100vw;
     }
-    @-o-keyframes float{
-        0%{
-            top: $navheight + 20px;
-            left: 0vw;
-        }
-        100%{
-            top:$navheight + 20px;
-            left: 100vw;
-        }
+}
+@-moz-keyframes float{
+    0%{
+        top: $navheight + 20px;
+        left: 0vw;
     }
-    @keyframes float{
-        0%{
-            top: $navheight + 20px;
-            left: 0vw;
-        }
-        100%{
-            top:$navheight + 20px;
-            left: 100vw;
-        }
+    100%{
+        top:$navheight + 20px;
+        left: 100vw;
+    }
+}
+@-o-keyframes float{
+    0%{
+        top: $navheight + 20px;
+        left: 0vw;
+    }
+    100%{
+        top:$navheight + 20px;
+        left: 100vw;
+    }
+}
+@keyframes float{
+    0%{
+        top: $navheight + 20px;
+        left: 0vw;
+    }
+    100%{
+        top:$navheight + 20px;
+        left: 100vw;
+    }
+}
+
+.menu-button{
+    display: none;
+    width: $menuwidth;
+    border-radius: 10px;
+    background: $primary;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    line-height: $navheight;
+}
+
+/*Responsive design!*/
+@media screen and (max-width: 760px){
+    $navheight: 104px; 
+
+    #navbar .menu{
+        display: block;
+        margin: 15px auto;
+        width: $menuwidth;
     }
 
     .menu-button{
-        display: none;
-        width: $menuwidth;
-        border-radius: 10px;
-        background: $primary;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        line-height: $navheight;
+        display: block;
+        vertical-align: middle;
     }
 
-    /*Responsive design!*/
-    @media screen and (max-width: 760px){
-        $navheight: 104px; 
+    #navbar .logo, .cloud, #indexlogo{
+        display: none;
+    }
 
-        #navbar .menu{
-            display: block;
-            margin: 15px auto;
-            width: $menuwidth;
-        }
+    #navbar{
+        display: block;
+        position: relative;
+        overflow: auto;
+        height: auto;
 
-        .menu-button{
-            display: block;
-            vertical-align: middle;
-        }
-
-        #navbar .logo, .cloud, #indexlogo{
-            display: none;
-        }
-
-        #navbar{
-            display: block;
+        ul, ul li ul{
             position: relative;
-            overflow: auto;
+            display: none;
             height: auto;
-
-            ul, ul li ul{
-                position: relative;
-                display: none;
-                height: auto;
-                margin-right: auto;
-                margin-left: auto;
-                padding: 0px;
-                width: $menuwidth;
-                border-radius: 0px 0px 10px 10px;
-            }
-
-            ul li ul{
-                position: relative;
-                margin-top: -142px;
-                margin-bottom: 100px;
-                padding-bottom: 100px;
-            }
-
-            ul li, ul li ul li{
-                display: block;
-                //line-height: $navheight;
-                vertical-align: middle;
-                border-top: 1px solid white;
-                background: $osl;
-            }
-
-            .menu:focus,
-            .menu:active,
-            .menu input:checked{
-                ~ ul, ~ ul li ul {
-                    display: block;
-                }
-
-                + .menu-button {
-                    border-radius: 10px 10px 0px 0px;
-                    background:$osl;
-                }
-            }
+            margin-right: auto;
+            margin-left: auto;
+            padding: 0px;
+            width: $menuwidth;
+            border-radius: 0px 0px 10px 10px;
         }
-        .menu-button:hover{
-            border-radius: 10px;
+
+        ul li ul{
+            position: relative;
+            margin-top: -142px;
+            margin-bottom: 100px;
+            padding-bottom: 100px;
+        }
+
+        ul li, ul li ul li{
+            display: block;
+            //line-height: $navheight;
+            vertical-align: middle;
+            border-top: 1px solid white;
             background: $osl;
         }
 
-        #about, #entry {
-            background: $about; 
-            box-shadow: 0px 0px 0em;
+        .menu:focus,
+        .menu:active,
+        .menu input:checked{
+            ~ ul, ~ ul li ul {
+                display: block;
+            }
 
-            p, h2, h3 {
-                //color: $lighttext;
+            + .menu-button {
+                border-radius: 10px 10px 0px 0px;
+                background:$osl;
             }
         }
+    }
+    .menu-button:hover{
+        border-radius: 10px;
+        background: $osl;
+    }
 
-        /*Responsive Typography*/
-        h1{
-        font-size: 36pt;}
-        h2{
-        font-size: 24pt;}
-        h3{
-        font-size: 30pt;}
-        h4, label{
-            margin: 0px;
-        font-size: 18pt;}
-        p, a{
-        font-size: 16pt;}
+    #about, #entry {
+        background: $about; 
+        box-shadow: 0px 0px 0em;
 
-        .arrow{
-        display: none;}
-
-        .page{
-            max-width: 90vw;
-            margin: 50px 0px;
-        padding: 0px;}
-
-        .page, #about div, #entry .page{
-            text-align: left;
-            background: rgba(255, 255, 255, 0);
-        }
-
-        .text{
-            margin: 0px 0px 0px 10%;
+        p, h2, h3 {
+            //color: $lighttext;
         }
     }
+
+    /*Responsive Typography*/
+    h1{
+    font-size: 36pt;}
+    h2{
+    font-size: 24pt;}
+    h3{
+    font-size: 30pt;}
+    h4, label{
+        margin: 0px;
+    font-size: 18pt;}
+    p, a{
+    font-size: 16pt;}
+
+    .arrow{
+    display: none;}
+
+    .page{
+        max-width: 90vw;
+        margin: 50px 0px;
+    padding: 0px;}
+
+    .page, #about div, #entry .page{
+        text-align: left;
+        background: rgba(255, 255, 255, 0);
+    }
+
+    .text{
+        margin: 0px 0px 0px 10%;
+    }
+}
