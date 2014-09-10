@@ -34,4 +34,4 @@ Docker
 
 *4:00 - 6:00*
 
-Docker is a platform on which applications can be built and run using containers. Applications built on Docker are isolated from the rest of the system. The containers have only the components required to run the application.
+Docker is a platform on which applications can be built and run using containers. Applications built on Docker are isolated from the rest of the system; the containers have only the components required to run the application.
