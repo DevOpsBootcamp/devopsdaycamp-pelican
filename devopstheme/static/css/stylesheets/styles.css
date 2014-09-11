@@ -434,7 +434,7 @@ html {
 
 /* line 42, ../sass/styles.scss */
 h1, h2, h3, h4, h5, p, a, label {
-  font-family: "Bitter", serif;
+  font-family: "soho", serif;
   color: #F5F2ED;
   margin: 2px;
   font-weight: 600;
