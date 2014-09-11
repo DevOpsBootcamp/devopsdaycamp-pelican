@@ -3,28 +3,22 @@
 {% block content %}
 
 <div id='index'>
-   <div class='text'>
-   <h3>Devops Daycamp</h3>
-   <h4>October 11th, 2014<br>
-   Kelley Engineering<br>
-   9am-5pm</h4>
-   </div>
-   <div id='indexlogo'>
-       <img src='{{ SITEURL }}/theme/img/airplane.png'>
-   </div>
+    <div class='text'>
+        <h1>Devops Daycamp</h1>
+        <h2>October 11th, 2014<br>
+            Kelley Engineering 1001-1007<br>
+            9am-6pm</h2>
+    </div>
+    <div id='indexlogo'>
+        <img src='{{ SITEURL }}/theme/img/airplane.png'>
+    </div>
 </div>
-{% set count = 1 %}
-{% for page1 in PAGES %}
-    {% for page2 in PAGES %}
-        {% if count==page2.order|int %}
-            <section id='{{ page2.slug }}' class='article' name='{{ page2.slug }}'>
-                <div class='page'>
-                    <h3 class='title'>{{ page2.title }}</h3>
-                    {{ page2.content }}
-                </div>
-            </section>
-        {% endif %}
-    {% endfor %}
-{% set count = count+1%}
+{% for page in pages | sort(attribute='order') %}
+<section id='{{ page.slug }}' class='article' name='{{ page.slug }}'>
+<div class='page'>
+    <h3 class='title'>{{ page.title }}</h3>
+    {{ page.content }}
+</div>
+</section>
 {% endfor %}
 {% endblock %} 

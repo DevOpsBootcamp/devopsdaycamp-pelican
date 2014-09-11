@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang='en'>
     <head>
-    <title>{{ SITENAME }} </title>
-    <meta charset='utf-8'>
-    <link rel='stylesheet' href='{{ SITEURL }}/theme/css/styles.css' type='text/css'>
-    <meta name='viewport' content='width=device-width'>
+        <title>{{ SITENAME }} </title>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href='{{ SITEURL }}/theme/css/styles.css' type='text/css'>
+        <meta name='viewport' content='width=device-width'>
 
-    <!--Google Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Bitter|Open+Sans' rel='stylesheet' type='text/css'>
+        <!--Google Fonts-->
+        <link href='http://fonts.googleapis.com/css?family=Bitter|Open+Sans' rel='stylesheet' type='text/css'>
     </head>
 
-   <body>
+    <body>
         <div id='navbar'>
             <ul>
                 <li><a href='http://osuosl.org' id='logo'><img src='{{ SITEURL }}/theme/img/logo.png'></a></li>
-                <li><a href='{{ SITEURL }}'>Home</a></li>
-                {% set count = 1 %}
-                    {% for page1 in PAGES %}
-                        {% for page2 in PAGES %}
-                            {% if count==page2.order|int %}
-                                <li><a href='#{{ page2.slug }}'>{{ page2.title }}</a></li>
+                <li><a href='{{ SITEURL }}/index.html'>Home</a></li>
+                {% for page in pages |sort(attribute="order")%}
+                {% if page.type == 'page' %}
+                <li><a href='#{{ page.slug }}'>{{ page.title }}</a></li>
+                {% endif %}
+                {% endfor %}
+                <li><a href='#entry'>Schedule <span class='arrow'>&#9660;<span></a>
+                        <ul>
+                            {% for p in pages |sort(attribute="order")%}
+                            {% if p.type == 'schedule' %}
+                            <li><a href='#{{ p.slug }}'>{{ p.title }}</a></li>
                             {% endif %}
-                        {% endfor %}
-                    {% set count = count+1%}
-                    {% endfor %}
-            </ul>
-        </div>
+                            {% endfor %}
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
 
-        {% block content %}
-        {% endblock content%}
-        <div id='footer'>
-        </div>
-    </body>
-</html>
+                {% block content %}
+                {% endblock content%}
+                <div id='footer'>
+                </div>
+            </body>
+        </html>
 
