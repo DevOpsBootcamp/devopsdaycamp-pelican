@@ -16,12 +16,10 @@ Single System Fundamentals Workshop
 -----------------------------------
 *12:30 - 2:30*
 
-In this workshop we'll explore the basics of Linux System fundamentals such as
-file permissions, users, groups, package management and a few other misc related
-topics.
+In this workshop we'll explore the basics of Linux System fundamentals such as file permissions, users, groups, package management and a few other misc related topics.
 
 Text Editors Workshop
 ---------------------
 *4:00 - 6:00*
 
-In this workshop we'll explore text editor basics; showing you concepts such as multi-file editing, syntax highlighting, keybindings, and a few popular text editors.
+In this workshop we'll explore text editor basics by showing you concepts such as multi-file editing, syntax highlighting, keybindings, and some popular text editors.

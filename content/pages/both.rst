@@ -12,8 +12,8 @@ Session 1
 ---------
 *9:30 - 11:30*
 
-Lunch
------
+Lunch (Pizza Provided)
+----------------------
 *11:30 - 12:30*
 
 Session 2

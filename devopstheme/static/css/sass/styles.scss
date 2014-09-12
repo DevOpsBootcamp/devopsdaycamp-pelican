@@ -12,7 +12,7 @@ $navheight: 70px;
 $menuwidth: 200px;
 $darktext: #373737;
 $lighttext: #F5F2ED;
-$serif: 'soho', serif;
+$serif: 'Bitter', serif;
 
 //Colors for different sections
 $about: #f5f2ed;
@@ -263,7 +263,7 @@ display:none;}
     background: rgba(255, 255, 255, .7);
 }
 
-#hacker, #about, #entry{
+#hacker-lounge, #about, #entry{
     p, h3, h2{
         color: $darktext;
     }
