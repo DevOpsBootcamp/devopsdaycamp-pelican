@@ -9,17 +9,17 @@ Introductory Workshop
 ---------------------
 *9:30 - 11:30*
 
-In this introductory workshop we'll go over the basics of Linux, the terminal, irc, and other awesome tools that we'll use throughout Devops Bootcamp.
+We'll go over the basics of Linux, the terminal, irc, and other awesome tools that we'll use throughout Devops Bootcamp.
 
 
 Single System Fundamentals Workshop
 -----------------------------------
 *12:30 - 2:30*
 
-In this workshop we'll explore the basics of Linux System fundamentals such as file permissions, users, groups, package management and a few other misc related topics.
+We'll explore the basics of Linux System fundamentals, including file permissions, users, groups, package management and a few other misc related topics.
 
 Text Editors Workshop
 ---------------------
 *4:00 - 6:00*
 
-In this workshop we'll explore text editor basics by showing you concepts such as multi-file editing, syntax highlighting, keybindings, and some popular text editors.
+We'll explore text editor basics by showing you concepts such as multi-file editing, syntax highlighting, keybindings, and some popular text editors.
