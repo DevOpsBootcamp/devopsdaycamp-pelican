@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter|Open+Sans);
 /*! normalize.css v2.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -416,7 +417,7 @@ table {
   font-family: soho;
   src: url("/soho.otf") format("opentype");
 }
-/* line 28, ../sass/styles.scss */
+/* line 29, ../sass/styles.scss */
 body {
   margin: 0px;
   padding: 0px;
@@ -424,7 +425,7 @@ body {
   overflow-x: hidden;
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 36, ../sass/styles.scss */
 html {
   margin: 0px !important;
   padding: 0px !important;
@@ -432,7 +433,7 @@ html {
   -webkit-padding: 0px;
 }
 
-/* line 42, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 h1, h2, h3, h4, h5, p, a, label {
   font-family: "Bitter", serif;
   color: #F5F2ED;
@@ -440,46 +441,46 @@ h1, h2, h3, h4, h5, p, a, label {
   font-weight: 600;
 }
 
-/* line 49, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 h1 {
   font-size: 46pt;
 }
 
-/* line 51, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 h2 {
   margin-top: 1em;
   font-size: 30pt;
 }
 
-/* line 54, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 h3 {
   font-size: 42pt;
   margin: auto;
 }
 
-/* line 57, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 h4 {
   font-size: 26pt;
 }
 
-/* line 59, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 a {
   font-size: 18pt;
 }
 
-/* line 61, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 p {
   line-height: 1.3em;
   font-family: 'Open Sans', sans-serif;
   font-size: 18pt;
 }
 
-/* line 66, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 #check {
   display: none;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 #navbar {
   height: 70px;
   width: 100%;
@@ -490,29 +491,29 @@ p {
   position: fixed;
   z-index: 120;
 }
-/* line 79, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 #navbar .logo {
   height: 70px;
   display: inline-block;
   vertical-align: middle;
   position: relative;
 }
-/* line 86, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 #navbar .logo:hover {
   opacity: 1;
 }
-/* line 90, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 #navbar img {
   height: 70px;
 }
-/* line 94, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 #navbar ul, #navbar .menu {
   display: inline-block;
   margin: 0px;
   padding: 0px;
   list-style-type: none;
 }
-/* line 101, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 #navbar ul li {
   display: inline-block;
   line-height: 70px;
@@ -520,18 +521,18 @@ p {
   position: relative;
   text-align: center;
 }
-/* line 109, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 #navbar ul li a {
   text-decoration: none;
   padding: 0px 20px;
   display: block;
   margin: 0px;
 }
-/* line 116, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 #navbar ul li a:hover {
   opacity: .5;
 }
-/* line 120, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 #navbar ul li ul {
   display: none;
   position: fixed;
@@ -539,7 +540,7 @@ p {
   padding: 0px;
   width: 260px;
 }
-/* line 128, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 #navbar ul li ul li {
   display: block;
   line-height: 70px;
@@ -548,17 +549,17 @@ p {
   background: #675040;
   text-align: left;
 }
-/* line 137, ../sass/styles.scss */
+/* line 138, ../sass/styles.scss */
 #navbar ul li:hover ul, #navbar ul li ul li:hover ul {
   display: block;
 }
-/* line 141, ../sass/styles.scss */
+/* line 142, ../sass/styles.scss */
 #navbar .arrow {
   font-size: .5em;
   padding-bottom: 2px;
 }
 
-/* line 147, ../sass/styles.scss */
+/* line 148, ../sass/styles.scss */
 #index {
   height: 550px;
   display: inline-block;
@@ -566,12 +567,12 @@ p {
   width: 100%;
   padding: 70px 0px;
 }
-/* line 154, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 #index h3, #index h4 {
   line-height: 2em;
 }
 
-/* line 159, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 #index:before {
   content: '';
   display: inline-block;
@@ -581,7 +582,7 @@ p {
   /* Adjusts for spacing */
 }
 
-/* line 167, ../sass/styles.scss */
+/* line 168, ../sass/styles.scss */
 .text {
   position: relative;
   width: 40%;
@@ -592,7 +593,7 @@ p {
   z-index: 100;
   text-shadow: -2px 2px 5px #222;
 }
-/* line 177, ../sass/styles.scss */
+/* line 178, ../sass/styles.scss */
 .text .register {
   color: #373737;
   text-decoration: none;
@@ -604,14 +605,14 @@ p {
   background: #F5F2ED;
   border: 2px solid #373737;
 }
-/* line 189, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 .text .register:hover {
   background: #373737;
   color: #F5F2ED;
   border: 2px solid #F5F2ED;
 }
 
-/* line 196, ../sass/styles.scss */
+/* line 197, ../sass/styles.scss */
 #indexlogo {
   -webkit-animation: fly 1s cubic-bezier(0, 0.2, 0.5, 1) 1;
   -moz-animation: fly 1s cubic-bezier(0, 0.2, 0.5, 1) 1;
@@ -628,7 +629,7 @@ p {
   left: 50vw;
   z-index: 50;
 }
-/* line 212, ../sass/styles.scss */
+/* line 213, ../sass/styles.scss */
 #indexlogo img {
   width: 80%;
   height: 80%;
@@ -637,7 +638,7 @@ p {
   padding: 20px;
 }
 
-/* line 221, ../sass/styles.scss */
+/* line 222, ../sass/styles.scss */
 .cloud {
   width: 100%;
   display: inline-block;
@@ -645,7 +646,7 @@ p {
   top: 0px;
   left: 0px;
 }
-/* line 228, ../sass/styles.scss */
+/* line 229, ../sass/styles.scss */
 .cloud .cloud1 {
   position: absolute;
   top: -500px;
@@ -656,7 +657,7 @@ p {
   animation: float 120s linear 1;
   height: 100px;
 }
-/* line 239, ../sass/styles.scss */
+/* line 240, ../sass/styles.scss */
 .cloud .cloud2 {
   position: absolute;
   top: -500px;
@@ -672,19 +673,19 @@ p {
   height: 200px;
 }
 
-/* line 255, ../sass/styles.scss */
+/* line 256, ../sass/styles.scss */
 .article {
   padding: 5% 10vw;
 }
 
-/* line 259, ../sass/styles.scss */
+/* line 260, ../sass/styles.scss */
 .parallax {
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
 
-/* line 265, ../sass/styles.scss */
+/* line 266, ../sass/styles.scss */
 .page {
   max-width: 80vw;
   margin-right: auto;
@@ -694,45 +695,45 @@ p {
   padding: 15px;
 }
 
-/* line 274, ../sass/styles.scss */
+/* line 275, ../sass/styles.scss */
 #about {
   background-image: url("../../img/osuosltransparent.jpg");
   box-shadow: inset 0 0 1em #111;
 }
 
-/* line 279, ../sass/styles.scss */
+/* line 280, ../sass/styles.scss */
 #about div, #entry .page {
   margin: 50px 0px;
   background: rgba(255, 255, 255, 0.7);
 }
 
-/* line 285, ../sass/styles.scss */
+/* line 286, ../sass/styles.scss */
 #hacker-lounge p, #hacker-lounge h3, #hacker-lounge h2, #about p, #about h3, #about h2, #entry p, #entry h3, #entry h2 {
   color: #373737;
 }
 
-/* line 290, ../sass/styles.scss */
+/* line 291, ../sass/styles.scss */
 #osl {
   background: #ACAFA6;
 }
 
-/* line 294, ../sass/styles.scss */
+/* line 295, ../sass/styles.scss */
 #advanced {
   background: #9CC5C9;
 }
 
-/* line 298, ../sass/styles.scss */
+/* line 299, ../sass/styles.scss */
 #entry {
   background-image: url("../../img/devopstransparent.jpg");
   box-shadow: inset 0 0 1em #111;
 }
 
-/* line 303, ../sass/styles.scss */
+/* line 304, ../sass/styles.scss */
 #together {
   background: #5D87A0;
 }
 
-/* line 307, ../sass/styles.scss */
+/* line 308, ../sass/styles.scss */
 #hacker-lounge {
   background: #e0c399;
 }
@@ -924,7 +925,7 @@ left: 50vw;
     left: 100vw;
   }
 }
-/* line 504, ../sass/styles.scss */
+/* line 505, ../sass/styles.scss */
 .menu-button {
   display: none;
   width: 200px;
@@ -938,32 +939,32 @@ left: 50vw;
 
 /*Responsive design!*/
 @media screen and (max-width: 760px) {
-  /* line 519, ../sass/styles.scss */
+  /* line 520, ../sass/styles.scss */
   #navbar .menu {
     display: block;
     margin: 15px auto;
     width: 200px;
   }
 
-  /* line 525, ../sass/styles.scss */
+  /* line 526, ../sass/styles.scss */
   .menu-button {
     display: block;
     vertical-align: middle;
   }
 
-  /* line 530, ../sass/styles.scss */
+  /* line 531, ../sass/styles.scss */
   #navbar .logo, .cloud, #indexlogo {
     display: none;
   }
 
-  /* line 534, ../sass/styles.scss */
+  /* line 535, ../sass/styles.scss */
   #navbar {
     display: block;
     position: relative;
     overflow: auto;
     height: auto;
   }
-  /* line 540, ../sass/styles.scss */
+  /* line 541, ../sass/styles.scss */
   #navbar ul, #navbar ul li ul {
     position: relative;
     display: none;
@@ -974,21 +975,21 @@ left: 50vw;
     width: 200px;
     border-radius: 0px 0px 10px 10px;
   }
-  /* line 551, ../sass/styles.scss */
+  /* line 552, ../sass/styles.scss */
   #navbar ul li ul {
     position: relative;
     margin-top: -142px;
     margin-bottom: 100px;
     padding-bottom: 100px;
   }
-  /* line 558, ../sass/styles.scss */
+  /* line 559, ../sass/styles.scss */
   #navbar ul li, #navbar ul li ul li {
     display: block;
     vertical-align: middle;
     border-top: 1px solid white;
     background: #ACAFA6;
   }
-  /* line 569, ../sass/styles.scss */
+  /* line 570, ../sass/styles.scss */
   #navbar .menu:focus ~ ul, #navbar .menu:focus ~ ul li ul,
   #navbar .menu:active ~ ul,
   #navbar .menu:active ~ ul li ul,
@@ -996,7 +997,7 @@ left: 50vw;
   #navbar .menu input:checked ~ ul li ul {
     display: block;
   }
-  /* line 573, ../sass/styles.scss */
+  /* line 574, ../sass/styles.scss */
   #navbar .menu:focus + .menu-button,
   #navbar .menu:active + .menu-button,
   #navbar .menu input:checked + .menu-button {
@@ -1004,64 +1005,64 @@ left: 50vw;
     background: #ACAFA6;
   }
 
-  /* line 579, ../sass/styles.scss */
+  /* line 580, ../sass/styles.scss */
   .menu-button:hover {
     border-radius: 10px;
     background: #ACAFA6;
   }
 
-  /* line 584, ../sass/styles.scss */
+  /* line 585, ../sass/styles.scss */
   #about, #entry {
     background: #f5f2ed;
     box-shadow: 0px 0px 0em;
   }
 
   /*Responsive Typography*/
-  /* line 594, ../sass/styles.scss */
+  /* line 595, ../sass/styles.scss */
   h1 {
     font-size: 36pt;
   }
 
-  /* line 596, ../sass/styles.scss */
+  /* line 597, ../sass/styles.scss */
   h2 {
     font-size: 24pt;
   }
 
-  /* line 598, ../sass/styles.scss */
+  /* line 599, ../sass/styles.scss */
   h3 {
     font-size: 30pt;
   }
 
-  /* line 600, ../sass/styles.scss */
+  /* line 601, ../sass/styles.scss */
   h4, label {
     margin: 0px;
     font-size: 18pt;
   }
 
-  /* line 603, ../sass/styles.scss */
+  /* line 604, ../sass/styles.scss */
   p, a {
     font-size: 16pt;
   }
 
-  /* line 606, ../sass/styles.scss */
+  /* line 607, ../sass/styles.scss */
   .arrow {
     display: none;
   }
 
-  /* line 609, ../sass/styles.scss */
+  /* line 610, ../sass/styles.scss */
   .page {
     max-width: 90vw;
     margin: 50px 0px;
     padding: 0px;
   }
 
-  /* line 614, ../sass/styles.scss */
+  /* line 615, ../sass/styles.scss */
   .page, #about div, #entry .page {
     text-align: left;
     background: rgba(255, 255, 255, 0);
   }
 
-  /* line 619, ../sass/styles.scss */
+  /* line 620, ../sass/styles.scss */
   .text {
     margin: 0px 0px 0px 10%;
   }
