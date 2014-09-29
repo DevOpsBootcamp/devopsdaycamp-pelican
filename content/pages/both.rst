@@ -24,8 +24,8 @@ Snack Break
 -----------
 *2:30 - 3:00*
 
-TBA
----
+DevOps at Nike
+--------------
 *3:00 - 4:00*
 
 Session 3
