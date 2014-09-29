@@ -8,3 +8,4 @@ output/*
 cache/*
 *~
 v/*
+venv/*
