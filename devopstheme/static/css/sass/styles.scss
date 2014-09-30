@@ -16,14 +16,14 @@ $lighttext: #F5F2ED;
 $serif: 'Bitter', serif;
 
 //Colors for different sections
-$about: #f5f2ed;
-$both: #5D87A0; 
-$osl: #ACAFA6; 
-$advanced: #9CC5C9;
-$hacker: #e0c399;
+$offwhite: #f5f2ed;
+$darkblue: #5D87A0; 
+$gray: #ACAFA6; 
+$lightblue: #9CC5C9;
+$peach: #e0c399;
 
 //Picture urls
-$abouturl: url('../../img/osuosltransparent.jpg');
+$offwhiteurl: url('../../img/osuosltransparent.jpg');
 $devopsurl: url('../../img/devopstransparent.jpg');
 
 body{
@@ -272,8 +272,12 @@ display:none;}
     padding: 15px;
 }
 
+section{
+    background: $gray;
+}
+
 #about{
-    background-image: $abouturl;
+    background-image: $offwhiteurl;
     box-shadow: inset 0 0 1em #111;
 }
 
@@ -288,12 +292,12 @@ display:none;}
     }
 }
 
-#osl{
-    background: $osl;
+#osl, .gray{
+    background: $gray;
 }
 
-#advanced{
-    background: $advanced;
+#advanced, .lightblue{
+    background: $lightblue;
 }
 
 #entry{
@@ -301,121 +305,17 @@ display:none;}
     box-shadow: inset 0 0 1em #111;
 }
 
-#together{
-    background: $both;
+#schedule, .darkblue{
+    background: $darkblue;
 }
 
-#hacker-lounge{
-    background: $hacker;
+#hacker-lounge, .peach{
+    background: $peach;
 }
 
-/*Animation of paper airplane*/
-/*@keyframes loop{
-0%{
-top: 0vh;
-left: 7.1vw;
-transform: rotate(180deg);
+.offwhite{
+    background: $offwhite;
 }
-5%{
-top: 5.03vh;
-left: -5.65vw;
-transform: rotate(171deg);
-}   
-10%{
-top: 11.45vh;
-left: -10.16vw;
-transform: rotate(162deg);
-}
-15%{
-top: 18.89vh;
-left: -13.28vw;
-transform: rotate(153deg);
-}
-20%{
-top: 26.9vh;
-left: -14.83vw;
-transform: rotate(144deg);
-}
-25%{
-top: 35.17vh;
-left: -14.74vw;
-transform: rotate(135deg);
-}
-30%{
-top: 43.11vh;
-left: -13vw;
-transform: rotate(126deg);
-}
-35%{
-top: 50.32vh;
-left: -9.72vw;
-transform: rotate(117deg);
-}
-40%{
-top: 56.41vh;
-left: -5.08vw;
-transform: rotate(108deg);
-}
-45%{
-top: 61.04vh;
-left: 0.68vw;
-transform: rotate(99deg);
-}
-50%{
-top: 63.96vh;
-left: 7.23vw;
-transform: rotate(90deg);
-}
-55%{
-top: 65vh;
-left: 14.21vw;
-transform: rotate(81deg);
-}
-60%{
-top: 64.1vh;
-left: 21.23vw;
-transform: rotate(72deg);
-}
-65%{
-top: 61.32vh;
-left: 27.9vw;
-transform: rotate(63deg);
-}
-70%{
-top: 56.8vh;
-left: 33.87vw;
-transform: rotate(54deg);
-}
-75%{
-top: 50.8vh;
-left: 38.8vw;
-transform: rotate(45deg);
-}
-80%{
-top: 43.67vh;
-left: 42.4vw;
-transform: rotate(36deg);
-}
-85%{
-top: 35.77vh;
-left: 44.49vw;
-transform: rotate(27deg);
-}
-90%{
-top: 27.55vh;
-left: 44.95vw;
-transform: rotate(18deg);
-}
-95%{
-top: 19.4vh;
-left: 45vw;
-transform: rotate(9deg);
-}
-100%{
-top: 15vh;
-left: 50vw;
-}
-}*/
 
 @keyframes fly{
     0%{
@@ -561,7 +461,7 @@ left: 50vw;
             //line-height: $navheight;
             vertical-align: middle;
             border-top: 1px solid white;
-            background: $osl;
+            background: $gray;
         }
 
         .menu:focus,
@@ -573,17 +473,17 @@ left: 50vw;
 
             + .menu-button {
                 border-radius: 10px 10px 0px 0px;
-                background:$osl;
+                background:$gray;
             }
         }
     }
     .menu-button:hover{
         border-radius: 10px;
-        background: $osl;
+        background: $gray;
     }
 
     #about, #entry {
-        background: $about; 
+        background: $offwhite; 
         box-shadow: 0px 0px 0em;
 
         p, h2, h3 {

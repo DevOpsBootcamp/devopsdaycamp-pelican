@@ -1,6 +1,6 @@
 Schedule
 ########
-:slug: together
+:slug: schedule
 :type: schedule
 :order: 3
 
