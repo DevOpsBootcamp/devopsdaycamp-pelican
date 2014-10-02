@@ -23,7 +23,7 @@ $lightblue: #9CC5C9;
 $peach: #e0c399;
 
 //Picture urls
-$offwhiteurl: url('../../img/osuosltransparent.jpg');
+$abouturl: url('../../img/osuosltransparent.jpg');
 $devopsurl: url('../../img/devopstransparent.jpg');
 
 body{
@@ -258,9 +258,13 @@ display:none;}
 }
 
 .parallax{
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
+    background-attachment: fixed !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    
+    h2, h3, h4, p{
+        color: $darktext;
+    }
 }
 
 .page{
@@ -272,12 +276,8 @@ display:none;}
     padding: 15px;
 }
 
-section{
-    background: $gray;
-}
-
 #about{
-    background-image: $offwhiteurl;
+    background-image: $abouturl;
     box-shadow: inset 0 0 1em #111;
 }
 
@@ -286,17 +286,11 @@ section{
     background: rgba(255, 255, 255, .7);
 }
 
-#hacker-lounge, #about, #entry{
-    p, h3, h2{
-        color: $darktext;
-    }
-}
-
-#osl, .gray{
+.gray{
     background: $gray;
 }
 
-#advanced, .lightblue{
+.lightblue{
     background: $lightblue;
 }
 
@@ -305,12 +299,16 @@ section{
     box-shadow: inset 0 0 1em #111;
 }
 
-#schedule, .darkblue{
+.darkblue{
     background: $darkblue;
 }
 
-#hacker-lounge, .peach{
+.peach{
     background: $peach;
+    
+    h2, h3, h4, p{
+        color: $darktext;
+    }
 }
 
 .offwhite{
