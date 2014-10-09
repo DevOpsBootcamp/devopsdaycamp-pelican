@@ -14,13 +14,25 @@
             1001-1007<br>
             9am-6pm</h2>
         <a class='register' href='https://www.eventbrite.com/e/devops-daycamp-tickets-12711068147'>Register now!</a>
+        <a class='register' href='http://doodle.com/7at9qyw7tqgy3wwh'>Vote on weekly meeting time</a>
     </div>
     <div id='indexlogo'>
         <img src='{{ SITEURL }}/theme/img/airplane.png'>
     </div>
 </div>
 {% for page in pages | sort(attribute='order') %}
-<section id='{{ page.slug }}' class='article {% if page.parallax %} parallax {% endif %}' name='{{ page.slug }}'>
+<section id='{{ page.slug }}' class='article 
+    {% if page.order|int%4 == 0 %}
+    gray
+    {% elif (page.order|int-1)%4 == 0 %}
+    darkblue
+    {% elif (page.order|int-2)%4 == 0 %}
+    peach
+    {% elif (page.order|int-3)%4 == 0 %}
+    lightblue
+    {% endif %}
+    {% if page.parallax %} parallax {% endif %}
+    ' name='{{ page.slug }}'>
 <div class='page'>
     <h3 class='title'>{{ page.title }}</h3>
     {{ page.content }}
