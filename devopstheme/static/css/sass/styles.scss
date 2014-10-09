@@ -146,7 +146,7 @@ display:none;}
 }
 
 #index{
-    height: 550px;
+    height: 700px;
     display: inline-block;
     background: $primary;
     width: 100%;
@@ -185,6 +185,7 @@ display:none;}
         margin: 10px 0px;
         background: $lighttext;
         border: 2px solid $darktext;
+        max-width: 300px;
         }
 
     .register:hover{
