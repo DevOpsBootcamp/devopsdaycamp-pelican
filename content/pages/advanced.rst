@@ -20,9 +20,11 @@ The Ansible project describes itself as “a radically simple IT automation plat
 
 Travis CI
 ---------
-*Mike Cooper*
+*Mike Cooper* - (`slides`__)
 
 *12:30 - 2:30*
+
+.. __: https://docs.google.com/presentation/d/1DtviFumRaQFARDsFs5k0Od77qMp_YjrzxVDVpEl4B0k/edit?usp=sharing
 
 Travis CI is a continuous integration system that runs tests in order to ensure the compatibility of a code within a project. Travis CI is unique in its ability to be added to a repository on Github, which allows tests to be run on commits, which allows the user to see whether or not a pull request is safe to merge.
 
