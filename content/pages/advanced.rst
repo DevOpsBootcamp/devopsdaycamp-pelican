@@ -32,10 +32,12 @@ Travis CI is a continuous integration system that runs tests in order to ensure 
      
     <p><br>
 
-Docker 
+Docker
 ------
-*Daniel Takamori*
+*Daniel Takamori* - (`slides`__)
 
 *4:00 - 6:00*
+
+.. __: https://staff.osuosl.org/~pono/docker.pdf
 
 Docker is a platform on which applications can be built and run using containers. Applications built on Docker are isolated from the rest of the system; the containers have only the components required to run the application.
