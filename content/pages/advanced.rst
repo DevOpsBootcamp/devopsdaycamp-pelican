@@ -6,9 +6,11 @@ Advanced
 
 Ansible
 -------
-*Tanner Semerad* 
+*Tanner Semerad* - (`slides`__)
 
 *9:30 - 11:30*
+
+.. __: http://tsemerad.github.io/slides/ansible-intro
 
 The Ansible project describes itself as “a radically simple IT automation platform that makes your applications and systems easier to deploy.” Ansible is a YAML-based configuration management language and it uses ssh to communicate with servers, rather than an agent.
 
