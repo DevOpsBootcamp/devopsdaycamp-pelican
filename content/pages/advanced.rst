@@ -4,5 +4,5 @@ Advanced
 :type: schedule
 :order: 5
 
-TBA
----
+Sessions TBA
+------------
