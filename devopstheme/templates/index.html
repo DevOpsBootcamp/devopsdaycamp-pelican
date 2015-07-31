@@ -9,18 +9,16 @@
     </div>
     <div class='text'>
         <h1>Devops Daycamp</h1>
-        <h2>October 11th, 2014<br>
+        <h2>October 3rd, 2015<br>
             Kelley Engineering<br>
-            1001-1007<br>
-            9am-6pm</h2>
-        <p>Thank you to everyone who attended Devops Daycamp 2014!<br>We look forward to seeing you next year!</p>
+            1001-1007</h2>
     </div>
     <div id='indexlogo'>
         <img src='{{ SITEURL }}/theme/img/airplane.png'>
     </div>
 </div>
 {% for page in pages | sort(attribute='order') %}
-<section id='{{ page.slug }}' class='article 
+<section id='{{ page.slug }}' class='article
     {% if page.order|int%4 == 0 %}
     gray
     {% elif (page.order|int-1)%4 == 0 %}
@@ -38,4 +36,4 @@
 </div>
 </section>
 {% endfor %}
-{% endblock %} 
+{% endblock %}
