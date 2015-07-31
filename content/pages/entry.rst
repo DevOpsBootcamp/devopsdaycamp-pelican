@@ -1,3 +1,4 @@
+
 Beginners
 #########
 :slug: entry
@@ -9,14 +10,23 @@ Here are some of the topics that will be covered:
 
 Introductory Workshop
 ---------------------
-We'll go over the basics of Linux, the terminal, irc, and other awesome tools
-that we'll use throughout Devops Bootcamp.
+We'll go over what DevOpsBootcamp is all about and get you started with your
+own system that you can start following our lessons in. All that's required is
+a laptop and web browser.
 
-Single System Fundamentals Workshop
------------------------------------
-We'll explore the basics of Linux System fundamentals, including file
-permissions, users, groups, package management and a few other misc related
-topics.
+
+Introduction to Linux and the Command Line
+------------------------------------------
+Next we will begin teaching how to interact with your new linux server; the
+command line and basics of linux will be shown through exercises designed to
+give you the confidence to start exploring.
+
+IRC and Getting Help
+--------------------
+IRC is Internet Relay Chat and an integral part of any internet based
+communication.  Come to learn about how to use IRC, ways to get help with
+linux, as well as some neat tricks for using your new linux powers.
+
 
 Version Control & Text Editors Workshop
 ---------------------------------------
