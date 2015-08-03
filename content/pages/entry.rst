@@ -10,8 +10,8 @@ Here are some of the topics that will be covered:
 
 Introductory Workshop
 ---------------------
-We'll go over what DevOpsBootcamp is all about and get you started with your
-own system that you can start following our lessons in. All that's required is
+We'll go over what DevOps Bootcamp is all about and get you started with your
+own linux server that that you can use for hands on demo. All that's required is
 a laptop and web browser.
 
 
@@ -23,7 +23,7 @@ give you the confidence to start exploring.
 
 IRC and Getting Help
 --------------------
-IRC is Internet Relay Chat and an integral part of any internet based
+Internet Relay Chat (IRC) and an integral part of any internet based
 communication.  Come to learn about how to use IRC, ways to get help with
 linux, as well as some neat tricks for using your new linux powers.
 
