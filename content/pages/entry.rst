@@ -23,7 +23,7 @@ give you the confidence to start exploring.
 
 IRC and Getting Help
 --------------------
-Internet Relay Chat (IRC) and an integral part of any internet based
+Internet Relay Chat (IRC) is an integral part of internet based
 communication.  Come to learn about how to use IRC, ways to get help with
 linux, as well as some neat tricks for using your new linux powers.
 
