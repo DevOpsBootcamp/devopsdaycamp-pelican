@@ -18,4 +18,4 @@ experiential learning center at Oregon State called the `Center for Applied
 Systems and Software`_ (CASS). CASS provides students hands-on experience in
 testing, software development, networking, devops, and hosting.
 
-.. _Center for Applied Systems and Software: 'http://cass.oregonstate.edu'
+.. _Center for Applied Systems and Software: http://cass.oregonstate.edu
