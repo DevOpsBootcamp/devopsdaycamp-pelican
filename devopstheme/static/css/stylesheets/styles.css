@@ -972,8 +972,8 @@ p {
 .button {
   position: relative;
   display: block;
-  width: 130px;
-  height: 16px;
+  width: 200px;
+  height: 25px;
   margin-top: 1em;
   margin-bottom: 1em;
   border: 1px solid #0a3c59;
@@ -991,10 +991,10 @@ p {
   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
-  text-shadow: #7ea4bd 0 1px 0;
-  color: #06426c;
-  font-size: 14px;
-  font-family: helvetica, serif;
+  text-shadow: -2px 2px 5px #222;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Bitter", serif;
   text-decoration: none;
   vertical-align: middle;
   text-align: center;
@@ -1009,7 +1009,7 @@ p {
   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
   background: -o-linear-gradient(top, #65a9d7, #3e779d);
   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
-  color: #fff;
+  color: #06426c;
 }
 .button:active {
   text-shadow: #1e4158 0 1px 0;
@@ -1022,9 +1022,4 @@ p {
   background: -o-linear-gradient(top, #3e779d, #65a9d7);
   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
   color: #fff;
-}
-
-#register {
-  font-size: 18px;
-  padding: 7px 21px 10.5px;
 }
