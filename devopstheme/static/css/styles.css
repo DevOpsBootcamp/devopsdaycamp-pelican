@@ -1,15 +1,362 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter|Open+Sans|Lato);
+/*! normalize.css v2.1.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Prevent system color scheme's background color being used in Firefox, IE,
+ *    and Opera.
+ * 2. Prevent system color scheme's text color being used in Firefox, IE, and
+ *    Opera.
+ * 3. Set default font family to sans-serif.
+ * 4. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  background: #fff;
+  /* 1 */
+  color: #000;
+  /* 2 */
+  font-family: sans-serif;
+  /* 3 */
+  -ms-text-size-adjust: 100%;
+  /* 4 */
+  -webkit-text-size-adjust: 100%;
+  /* 4 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre-wrap; }
+
+/**
+ * Set consistent quote types.
+ */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 @font-face {
   font-family: soho;
-  src: url("../soho.otf") format("opentype"); }
+  src: url("/soho.otf") format("opentype"); }
 body {
   margin: 0px;
   padding: 0px;
   font-size: 100%;
   overflow-x: hidden; }
 
-h1, h2, h3, h4, h5, p, a {
-  font-family: "soho", serif;
-  color: #f5f2ed;
+html {
+  margin: 0px !important;
+  padding: 0px !important;
+  -webkit-margin: 0px;
+  -webkit-padding: 0px; }
+
+h1, h2, h3, h4, h5, p, a, label {
+  font-family: "Bitter", serif;
+  color: #F5F2ED;
   margin: 2px;
   font-weight: 600; }
 
@@ -18,7 +365,8 @@ h1 {
 
 h2 {
   margin-top: 1em;
-  font-size: 30pt; }
+  font-size: 30pt;
+  text-align: left; }
 
 h3 {
   font-size: 42pt;
@@ -28,41 +376,48 @@ h4 {
   font-size: 26pt; }
 
 a {
-  font-size: 18pt; }
+  font-size: 16pt; }
 
 p {
   line-height: 1.3em;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18pt; }
+  font-family: "Lato", sans-serif;
+  font-size: 16pt; }
+
+#check {
+  display: none; }
 
 #navbar {
   height: 70px;
-  width: 100vw;
+  width: 100%;
   margin: 0px;
   padding: 0px;
   background: #675040;
   display: inline-block;
   position: fixed;
   z-index: 120; }
-  #navbar #logo {
-    height: 70px; }
-  #navbar #logo:hover {
+  #navbar .logo {
+    height: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative; }
+  #navbar .logo:hover {
     opacity: 1; }
   #navbar img {
     height: 70px; }
   #navbar ul, #navbar .menu {
     display: inline-block;
-    height: 70px;
     margin: 0px;
-    padding: 0px; }
-  #navbar ul li, #navbar .logo {
+    padding: 0px;
+    list-style-type: none; }
+  #navbar ul li {
     display: inline-block;
     line-height: 70px;
     vertical-align: middle;
-    position: relative; }
+    position: relative;
+    text-align: center; }
   #navbar ul li a {
     text-decoration: none;
-    padding: 0px 10%;
+    padding: 0px 20px;
     display: block;
     margin: 0px; }
   #navbar ul li a:hover {
@@ -72,13 +427,14 @@ p {
     position: fixed;
     top: 70px;
     padding: 0px;
-    width: 160px; }
+    width: 260px; }
   #navbar ul li ul li {
     display: block;
     line-height: 70px;
     vertical-align: middle;
     border-top: 1px solid white;
-    background: #675040; }
+    background: #675040;
+    text-align: left; }
   #navbar ul li:hover ul, #navbar ul li ul li:hover ul {
     display: block; }
   #navbar .arrow {
@@ -86,10 +442,10 @@ p {
     padding-bottom: 2px; }
 
 #index {
-  height: 500px;
+  height: 700px;
   display: inline-block;
-  background: #9cc5c9;
-  width: 100vw;
+  background: #9CC5C9;
+  width: 100%;
   padding: 70px 0px; }
   #index h3, #index h4 {
     line-height: 2em; }
@@ -111,6 +467,21 @@ p {
   vertical-align: middle;
   z-index: 100;
   text-shadow: -2px 2px 5px #222; }
+  .text .register {
+    color: #373737;
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 24pt;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0px;
+    background: #F5F2ED;
+    border: 2px solid #373737;
+    max-width: 300px; }
+  .text .register:hover {
+    background: #373737;
+    color: #F5F2ED;
+    border: 2px solid #F5F2ED; }
 
 #indexlogo {
   -webkit-animation: fly 1s cubic-bezier(0, 0.2, 0.5, 1) 1;
@@ -167,154 +538,55 @@ p {
   padding: 5% 10vw; }
 
 .parallax {
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover; }
+  background-attachment: fixed !important;
+  background-position: center center !important;
+  background-size: cover !important; }
+  .parallax h2, .parallax h3, .parallax h4, .parallax p {
+    color: #373737; }
 
 .page {
   max-width: 80vw;
   margin-right: auto;
   margin-left: auto;
-  text-align: justify;
   line-height: 1.3;
   padding: 15px; }
 
 #about {
-  background-image: url("../img/osuosltransparent.jpg");
+  background-image: url("../../img/osuosltransparent.jpg");
   box-shadow: inset 0 0 1em #111; }
 
 #about div, #entry .page {
   margin: 50px 0px;
   background: rgba(255, 255, 255, 0.7); }
 
-#about p, #about h3, #entry p, #entry h3, #entry h2 {
-  color: #373737; }
+.gray {
+  background: #ACAFA6; }
 
-#osl {
-  background: #acafa6; }
-
-#advanced {
-  background: #9cc5c9; }
+.lightblue {
+  background: #9CC5C9; }
 
 #entry {
-  background-image: url("../img/devopstransparent.jpg");
+  background-image: url("../../img/devopstransparent.jpg");
   box-shadow: inset 0 0 1em #111; }
 
-#together {
-  background: #5d87a0; }
+#advanced p strong, #advanced p em {
+  font-size: 20pt; }
 
-/*Animation of paper airplane*/
-/*@keyframes loop{
-    0%{
-        top: 0vh;
-        left: 7.1vw;
-        transform: rotate(180deg);
-        }
-    5%{
-        top: 5.03vh;
-        left: -5.65vw;
-        transform: rotate(171deg);
-        }   
-    10%{
-        top: 11.45vh;
-        left: -10.16vw;
-        transform: rotate(162deg);
-        }
-    15%{
-        top: 18.89vh;
-        left: -13.28vw;
-        transform: rotate(153deg);
-        }
-    20%{
-        top: 26.9vh;
-        left: -14.83vw;
-        transform: rotate(144deg);
-        }
-    25%{
-        top: 35.17vh;
-        left: -14.74vw;
-        transform: rotate(135deg);
-        }
-    30%{
-        top: 43.11vh;
-        left: -13vw;
-        transform: rotate(126deg);
-        }
-    35%{
-        top: 50.32vh;
-        left: -9.72vw;
-        transform: rotate(117deg);
-        }
-    40%{
-        top: 56.41vh;
-        left: -5.08vw;
-        transform: rotate(108deg);
-        }
-    45%{
-        top: 61.04vh;
-        left: 0.68vw;
-        transform: rotate(99deg);
-        }
-    50%{
-        top: 63.96vh;
-        left: 7.23vw;
-        transform: rotate(90deg);
-        }
-    55%{
-        top: 65vh;
-        left: 14.21vw;
-        transform: rotate(81deg);
-        }
-    60%{
-        top: 64.1vh;
-        left: 21.23vw;
-        transform: rotate(72deg);
-        }
-    65%{
-        top: 61.32vh;
-        left: 27.9vw;
-        transform: rotate(63deg);
-        }
-    70%{
-        top: 56.8vh;
-        left: 33.87vw;
-        transform: rotate(54deg);
-        }
-    75%{
-        top: 50.8vh;
-        left: 38.8vw;
-        transform: rotate(45deg);
-        }
-    80%{
-        top: 43.67vh;
-        left: 42.4vw;
-        transform: rotate(36deg);
-        }
-    85%{
-        top: 35.77vh;
-        left: 44.49vw;
-        transform: rotate(27deg);
-        }
-    90%{
-        top: 27.55vh;
-        left: 44.95vw;
-        transform: rotate(18deg);
-        }
-    95%{
-        top: 19.4vh;
-        left: 45vw;
-        transform: rotate(9deg);
-        }
-    100%{
-        top: 15vh;
-        left: 50vw;
-        }
-    }*/
+.darkblue {
+  background: #5D87A0; }
+
+.peach {
+  background: #e0c399; }
+  .peach h2, .peach h3, .peach h4, .peach p {
+    color: #373737; }
+
+.offwhite {
+  background: #f5f2ed; }
+
 @keyframes fly {
   0% {
     top: 80vh;
     left: -20vw; }
-
   100% {
     top: 15vh;
     left: 50vw; } }
@@ -322,7 +594,6 @@ p {
   0% {
     top: 80vh;
     left: -20vw; }
-
   100% {
     top: 15vh;
     left: 50vw; } }
@@ -330,7 +601,6 @@ p {
   0% {
     top: 80vh;
     left: -20vw; }
-
   100% {
     top: 15vh;
     left: 50vw; } }
@@ -338,7 +608,6 @@ p {
   0% {
     top: 80vh;
     left: -20vw; }
-
   100% {
     top: 15vh;
     left: 50vw; } }
@@ -346,7 +615,6 @@ p {
   0% {
     top: 90px;
     left: 0vw; }
-
   100% {
     top: 90px;
     left: 100vw; } }
@@ -354,7 +622,6 @@ p {
   0% {
     top: 90px;
     left: 0vw; }
-
   100% {
     top: 90px;
     left: 100vw; } }
@@ -362,7 +629,6 @@ p {
   0% {
     top: 90px;
     left: 0vw; }
-
   100% {
     top: 90px;
     left: 100vw; } }
@@ -370,56 +636,107 @@ p {
   0% {
     top: 90px;
     left: 0vw; }
-
   100% {
     top: 90px;
     left: 100vw; } }
 .menu-button {
   display: none;
-  width: 60%;
-  margin: 20px auto;
+  width: 200px;
   border-radius: 10px;
-  background: #9cc5c9; }
-
-.menu-button a {
+  background: #9CC5C9;
+  position: relative;
   text-align: center;
   text-decoration: none;
-  display: block;
-  width: 100%;
-  height: 100%;
   line-height: 70px; }
 
 /*Responsive design!*/
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
+  #navbar .menu {
+    display: block;
+    margin: 15px auto;
+    width: 200px; }
+
   .menu-button {
-    display: block; }
+    display: block;
+    vertical-align: middle; }
 
   #navbar .logo, .cloud, #indexlogo {
     display: none; }
 
   #navbar {
-    height: auto; }
-
-  #navbar ul {
-    display: none;
-    margin-top: 90px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0px;
-    width: 160px; }
-
-  #navbar ul li {
     display: block;
-    line-height: 70px;
-    vertical-align: middle;
-    border-top: 1px solid white;
-    background: #999; }
+    position: relative;
+    overflow: auto;
+    height: auto; }
+    #navbar ul, #navbar ul li ul {
+      position: relative;
+      display: none;
+      height: auto;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0px;
+      width: 200px;
+      border-radius: 0px 0px 10px 10px; }
+    #navbar ul li ul {
+      position: relative;
+      margin-top: -142px;
+      margin-bottom: 100px;
+      padding-bottom: 100px; }
+    #navbar ul li, #navbar ul li ul li {
+      display: block;
+      vertical-align: middle;
+      border-top: 1px solid white;
+      background: #ACAFA6; }
+    #navbar .menu:focus ~ ul, #navbar .menu:focus ~ ul li ul,
+    #navbar .menu:active ~ ul,
+    #navbar .menu:active ~ ul li ul,
+    #navbar .menu input:checked ~ ul,
+    #navbar .menu input:checked ~ ul li ul {
+      display: block; }
+    #navbar .menu:focus + .menu-button,
+    #navbar .menu:active + .menu-button,
+    #navbar .menu input:checked + .menu-button {
+      border-radius: 10px 10px 0px 0px;
+      background: #ACAFA6; }
 
-  .menu-button a:hover {
+  .menu-button:hover {
     border-radius: 10px;
-    background: #999; }
+    background: #ACAFA6; }
 
-  .menu-button a:hover + #navbar ul {
-    display: block; }
+  #about, #entry {
+    background: #f5f2ed;
+    box-shadow: 0px 0px 0em; }
 
-  /*Responsive Typography*/ }
+  /*Responsive Typography*/
+  h1 {
+    font-size: 36pt; }
+
+  h2 {
+    font-size: 24pt; }
+
+  h3 {
+    font-size: 30pt; }
+
+  h4, label {
+    margin: 0px;
+    font-size: 18pt; }
+
+  p, a {
+    font-size: 16pt; }
+
+  .arrow {
+    display: none; }
+
+  .page {
+    max-width: 90vw;
+    margin: 50px 0px;
+    padding: 0px; }
+
+  .page, #about div, #entry .page {
+    text-align: left;
+    background: rgba(255, 255, 255, 0); }
+
+  .text {
+    margin: 0px 0px 0px 10%; } }
+
+/*# sourceMappingURL=styles.css.map */
