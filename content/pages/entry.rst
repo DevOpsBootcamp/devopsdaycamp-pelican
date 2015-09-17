@@ -1,4 +1,3 @@
-
 Beginners
 #########
 :slug: entry
