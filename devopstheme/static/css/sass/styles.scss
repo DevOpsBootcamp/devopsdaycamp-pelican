@@ -10,7 +10,7 @@ $bodybg: #fff;
 $primary: #9CC5C9;
 $secondary: #675040;
 $navheight: 70px;
-$menuwidth: 200px;
+$menuwidth: 80vw;
 $darktext: #373737;
 $lighttext: #F5F2ED;
 $serif: 'Bitter', serif;
@@ -169,7 +169,6 @@ display:none;}
 }
 
 .text{
-    position: relative;
     width: 40%;
     margin: 0;
     margin-left: 10%;
@@ -420,16 +419,29 @@ display:none;}
     text-align: center;
     text-decoration: none;
     line-height: $navheight;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:680px) and (max-width:820px){
+    #navbar {
+        ul li a {
+            padding: 0 10px;
+        }        
+    }
 }
 
 /*Responsive design!*/
-@media screen and (max-width: 760px){
+@media screen and (max-width: 680px){
     $navheight: 104px; 
 
     #navbar .menu{
         display: block;
         margin: 15px auto;
         width: $menuwidth;
+    
+        a {
+            text-align: center;
+        }
     }
 
     .menu-button{
@@ -528,7 +540,15 @@ display:none;}
 
     .text{
         margin: 0px 0px 0px 10%;
+        width: 80%;
+        display: block;
+        position: absolute;
+        top: $navheight + 20;
+        left: 10%;
     }
+
+    #index {
+        height: 320px;}
 }
 
 .button {

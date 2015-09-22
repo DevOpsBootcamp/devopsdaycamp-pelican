@@ -20,7 +20,7 @@
                     <li><a href='{{ SITEURL }}'>Home</a></li>
                     {% for page in pages |sort(attribute="order")%}
                     {% if page.type == 'page' %}
-                    <li><a href='#{{ page.slug }}'>{{ page.title }}</a></li>
+                    <li><a href='#{{ page.slug }}'>{{ page.menu }}</a></li>
                     {% endif %}
                     {% endfor %}
                     <li><a href='#schedule'>Schedule <span class='arrow'>&#9660;<span></a>

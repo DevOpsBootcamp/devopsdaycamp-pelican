@@ -459,7 +459,6 @@ p {
   /* Adjusts for spacing */ }
 
 .text {
-  position: relative;
   width: 40%;
   margin: 0;
   margin-left: 10%;
@@ -641,20 +640,26 @@ p {
     left: 100vw; } }
 .menu-button {
   display: none;
-  width: 200px;
+  width: 80vw;
   border-radius: 10px;
   background: #9CC5C9;
   position: relative;
   text-align: center;
   text-decoration: none;
-  line-height: 70px; }
+  line-height: 70px;
+  margin: 0 auto; }
 
+@media screen and (min-width: 680px) and (max-width: 820px) {
+  #navbar ul li a {
+    padding: 0 10px; } }
 /*Responsive design!*/
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 680px) {
   #navbar .menu {
     display: block;
     margin: 15px auto;
-    width: 200px; }
+    width: 80vw; }
+    #navbar .menu a {
+      text-align: center; }
 
   .menu-button {
     display: block;
@@ -675,7 +680,7 @@ p {
       margin-right: auto;
       margin-left: auto;
       padding: 0px;
-      width: 200px;
+      width: 80vw;
       border-radius: 0px 0px 10px 10px; }
     #navbar ul li ul {
       position: relative;
@@ -737,7 +742,15 @@ p {
     background: rgba(255, 255, 255, 0); }
 
   .text {
-    margin: 0px 0px 0px 10%; } }
+    margin: 0px 0px 0px 10%;
+    width: 80%;
+    display: block;
+    position: absolute;
+    top: 124px;
+    left: 10%; }
+
+  #index {
+    height: 320px; } }
 .button {
   position: relative;
   display: block;
