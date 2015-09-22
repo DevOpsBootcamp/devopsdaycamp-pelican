@@ -4,9 +4,6 @@ Schedule
 :type: schedule
 :order: 3
 
-This schedule is tentative. A final schedule will be announced by September
-11th.
-
 Opening Remarks and Coffee
 --------------------------
 *9:00 - 9:30*

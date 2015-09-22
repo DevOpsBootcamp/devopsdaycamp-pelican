@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Bitter|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bitter|Open+Sans|Lato);
 @import 'normalize';
 
 @font-face{
@@ -14,6 +14,7 @@ $menuwidth: 200px;
 $darktext: #373737;
 $lighttext: #F5F2ED;
 $serif: 'Bitter', serif;
+$sans: 'Lato', sans-serif;
 
 //Colors for different sections
 $offwhite: #f5f2ed;
@@ -23,8 +24,8 @@ $lightblue: #9CC5C9;
 $peach: #e0c399;
 
 //Picture urls
-$abouturl: url('../../img/osuosltransparent.jpg');
-$devopsurl: url('../../img/devopstransparent.jpg');
+$abouturl: url('../img/osuosltransparent.jpg');
+$devopsurl: url('../img/devopstransparent.jpg');
 
 body{
     margin: 0px;
@@ -48,21 +49,23 @@ h1, h2, h3, h4, h5, p, a, label{
 }
 
 h1{
-font-size: 46pt;}
+    font-size: 36pt;}
 h2 { 
     margin-top: 1em;
-font-size: 30pt;}
+    font-size: 28pt;
+    // This is smalled than h3 because of how rst builds the page
+    text-align: left;}
 h3 { 
-    font-size: 42pt;
-margin: auto;}
+    font-size: 32pt;
+    margin: auto;}
 h4{
-font-size: 26pt;}
+    font-size: 24pt;}
 a {
-font-size: 18pt;}
+    font-size: 16pt;}
 p {
     line-height: 1.3em;
-    font-family: 'Open Sans', sans-serif;
-font-size: 18pt;}
+    font-family: $sans;
+    font-size: 16pt;}
 
 #check{
 display:none;}
@@ -168,7 +171,7 @@ display:none;}
 .text{
     position: relative;
     width: 40%;
-    margin: 100px 0px 0px 0px;
+    margin: 0;
     margin-left: 10%;
     display: inline-block;
     vertical-align: middle;
@@ -272,7 +275,6 @@ display:none;}
     max-width: 80vw;
     margin-right: auto;
     margin-left: auto;
-    text-align: justify;
     line-height: 1.3;
     padding: 15px;
 }
@@ -298,6 +300,14 @@ display:none;}
 #entry{
     background-image: $devopsurl;
     box-shadow: inset 0 0 1em #111;
+}
+
+#advanced, #schedule {
+    p {
+        strong, em {
+            font-size: 20pt;
+        }
+    }
 }
 
 .darkblue{
@@ -519,4 +529,51 @@ display:none;}
     .text{
         margin: 0px 0px 0px 10%;
     }
+}
+
+.button {
+position: relative;
+display: block;
+width: 200px;
+height: 25px;
+margin-top: 1em;
+margin-bottom: 1em;
+border: 1px solid #0A3C59;
+background: transparent -moz-linear-gradient(center top , #65A9D7, #3E779D) repeat scroll 0% 0%;
+padding: 10.5px 21px;
+border-radius: 6px;
+box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 0px rgba(255, 255, 255, 0.4) inset;
+text-shadow: -2px 2px 5px #222;
+color: #FFF;
+font-size: 18px;
+font-family: "Bitter",serif;
+text-decoration: none;
+vertical-align: middle;
+text-align: center;
+}
+
+.button:hover {
+  border: 1px solid #0a3c59;
+  text-shadow: #1e4158 0 1px 0;
+  background: #3e779d;
+  background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+  background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+  background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+  background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+  background: -o-linear-gradient(top, #65a9d7, #3e779d);
+  background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+  color: #06426c;
+}
+
+.button:active {
+  text-shadow: #1e4158 0 1px 0;
+  border: 1px solid #0a3c59;
+  background: #65a9d7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+  background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+  background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+  background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+  background: -o-linear-gradient(top, #3e779d, #65a9d7);
+  background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+  color: #fff;
 }

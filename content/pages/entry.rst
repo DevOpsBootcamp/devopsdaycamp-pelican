@@ -1,11 +1,9 @@
-Beginners
-#########
+Beginner Track
+##############
 :slug: entry
 :type: schedule
 :order: 4
 :parallax: 1
-
-Here are some of the topics that will be covered:
 
 Introductory Workshop
 ---------------------
@@ -27,8 +25,8 @@ communication.  Come to learn about how to use IRC, ways to get help with
 linux, as well as some neat tricks for using your new linux powers.
 
 
-Version Control & Text Editors Workshop
----------------------------------------
+Version Control & Text Editors
+------------------------------
 We'll explore text editor basics by showing you concepts such as multi-file
 editing, syntax highlighting, keybindings, and some popular text editors. In
 addition we'll introduce some basics on version control using Git.
