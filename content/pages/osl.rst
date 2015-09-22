@@ -1,6 +1,7 @@
 OSU Open Source Lab
 ###################
 :slug: osl
+:menu: OSUOSL
 :type: page
 :order: 2
 

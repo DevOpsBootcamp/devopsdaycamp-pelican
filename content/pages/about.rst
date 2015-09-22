@@ -1,6 +1,7 @@
 About
 #####
 :slug: about
+:menu: About
 :type: page
 :order: 1
 :parallax: 1
