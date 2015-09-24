@@ -7,7 +7,7 @@ Devops Panel
 A group of experts from industry and academia will discuss and respond to
 questions relating to devops in the real world.
 
-Trever Bramwell
+Trevor Bramwell
 ---------------
 *Release Engineer at The Linux Foundation*
 
