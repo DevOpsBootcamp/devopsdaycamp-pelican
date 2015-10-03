@@ -4,8 +4,8 @@ Schedule
 :type: schedule
 :order: 3
 
-Opening Remarks and Coffee
---------------------------
+Opening Remarks
+---------------
 *8:30 - 9:00*
 
 Session 1
