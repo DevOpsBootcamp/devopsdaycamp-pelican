@@ -65,8 +65,8 @@ education. I will describe some of the problems we solved and
 others that we tried but failed to fix. Finally, I will explain 
 the features that we need from open-source databases in the future.
 
-GPG in the Real World
----------------------
+`GPG in the Real World`_
+------------------------
 *11:00 - 12:00*
 
 **Emily Dunham**
@@ -81,6 +81,8 @@ difficult to use and understand. This talk will refresh your
 memory about GPG without delving too deeply into the underlying 
 mathematics, then focus mainly on common practical applications 
 beyond the scope of your average key-signing party.
+
+.. _GPG in the Real World: http://talks.edunham.net/DevOpsDaycamp2015/
 
 Lunch
 -----
