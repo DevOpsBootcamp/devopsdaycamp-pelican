@@ -90,8 +90,8 @@ Lunch
 -----
 *12:00 - 1:00*
 
-All Your Base Are Belong To Us
-------------------------------
+`All Your Base Are Belong To Us`_
+---------------------------------
 *1:00 - 2:00*
 
 **Daniel Takamori**
@@ -101,6 +101,8 @@ computer, here's a talk that will surely do that!  30 minutes
 on common attacks; covering a bit of implementing crypto, 
 how to not get social engineered, and dealing with zero days.  
 Then a 30 minute demo on some neat attacks and a sandbox to test against.
+
+.. _All Your Base Are Belong To Us: https://goo.gl/8BYZtu
 
 APIs and Thinking Like a Unix
 -----------------------------
