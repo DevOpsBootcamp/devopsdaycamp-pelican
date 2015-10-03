@@ -65,7 +65,7 @@ education. I will describe some of the problems we solved and
 others that we tried but failed to fix. Finally, I will explain 
 the features that we need from open-source databases in the future.
 
-.. _A short history of web scale MySQL: /theme/pdf/web-scale-mysql.pdf
+.. _A short history of web scale MySQL: /daycamp/theme/pdf/web-scale-mysql.pdf
 
 `GPG in the Real World`_
 ------------------------
