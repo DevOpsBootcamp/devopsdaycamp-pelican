@@ -35,8 +35,8 @@ difficult.
 
 .. _Software's Source of Truth\: Configuration: http://uncommonrose.com/presentations/osu-devops-2015/
 
-Testing Infrastructure
-----------------------
+`Testing Infrastructure`_
+-------------------------
 *10:00 - 10:30*
 
 **Spencer Krum**
@@ -49,6 +49,8 @@ things people are doing in this space. I'll describe what I do
 at my work, and the engineering trade-offs that you must consider 
 when designing or implementing a system to test your infrastructure 
 changes before they go live.
+
+.. _Testing Infrastructure: https://github.com/nibalizer/testing-infrastructure-presentation
 
 A short history of web scale MySQL
 ----------------------------------
