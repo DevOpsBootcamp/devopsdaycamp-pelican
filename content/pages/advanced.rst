@@ -52,8 +52,8 @@ changes before they go live.
 
 .. _Testing Infrastructure: https://github.com/nibalizer/testing-infrastructure-presentation
 
-A short history of web scale MySQL
-----------------------------------
+`A short history of web scale MySQL`_
+-------------------------------------
 *10:30 - 11:00*
 
 **Mark Callaghan**
@@ -64,6 +64,8 @@ I spent a lot of time in production and this was a wonderful
 education. I will describe some of the problems we solved and 
 others that we tried but failed to fix. Finally, I will explain 
 the features that we need from open-source databases in the future.
+
+.. _A short history of web scale MySQL: /theme/pdf/web-scale-mysql.pdf
 
 `GPG in the Real World`_
 ------------------------
