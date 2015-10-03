@@ -4,8 +4,8 @@ Advanced Track
 :type: schedule
 :order: 5
 
-Packer
-------
+`Packer`_
+---------
 *9:00 - 9:30*
 
 **Lance Albertson**
@@ -18,8 +18,10 @@ of cloud and virtualization platforms. This session will cover the
 basics of how you can make an image using Packer. In addition it 
 will cover some more advanced topics with Packer.
 
-Software's Source of Truth: Configuration
------------------------------------------
+.. _Packer: http://lancealbertson.com/slides/packer-linuxcon2015/
+
+`Software's Source of Truth: Configuration`_
+--------------------------------------------
 *9:30 - 10:00*
 
 **K Lars Lohn**
@@ -30,6 +32,8 @@ Expressed in various languages, configuration imbues a program
 with insight into its environment, operating parameters, maybe 
 even its ultimate goal.  Configuration is actually deceptively 
 difficult.
+
+.. _Software's Source of Truth\: Configuration: http://uncommonrose.com/presentations/osu-devops-2015/
 
 Testing Infrastructure
 ----------------------
