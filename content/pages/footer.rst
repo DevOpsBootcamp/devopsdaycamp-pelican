@@ -5,6 +5,6 @@ Help us out!
 :order: 8
 
 Contribute to this page by filing an issue or making a pull request
-`here`_
+`on GitHub`_
 
-.. _here: https://github.com/osuosl/devopsdaycamp-pelican
+.. _on GitHub: https://github.com/osuosl/devopsdaycamp-pelican

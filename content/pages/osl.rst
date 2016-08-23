@@ -12,4 +12,4 @@ Drupal. Together, the OSL’s hosted sites deliver nearly 430 terabytes of
 information worldwide every month. The most active organization of its kind, the
 OSL offers world-class hosting services, professional software development and
 on-the-ground training for promising students interested in open source
-management and programming. 
+management and programming.
