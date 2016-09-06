@@ -22,7 +22,7 @@ First we will:
 - Cover what DevOps BootCamp will teach you throughout the year.
 - Get you started with your own Linux server that that you can use for hands on
   demos.
-- Get started using that VM!
+- Get started using that Remote Linux Virtual Machine (VM)!
 
 All you need to do is have a laptop and web browser.
 
