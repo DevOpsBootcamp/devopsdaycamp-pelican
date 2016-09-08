@@ -354,7 +354,7 @@ html {
   -webkit-margin: 0px;
   -webkit-padding: 0px; }
 
-h1, h2, h3, h4, h5, p, a, label {
+h1, h2, h3, h4, h5, p, a, li, hr, label {
   font-family: "Bitter", serif;
   color: #F5F2ED;
   margin: 2px;
@@ -365,11 +365,11 @@ h1 {
 
 h2 {
   margin-top: 1em;
-  font-size: 28pt;
+  font-size: 32pt;
   text-align: left; }
 
 h3 {
-  font-size: 32pt;
+  font-size: 28pt;
   margin: auto; }
 
 h4 {
@@ -711,6 +711,8 @@ p {
   #about, #entry {
     background: #f5f2ed;
     box-shadow: 0px 0px 0em; }
+    #about p, #about h2, #about h3, #entry p, #entry h2, #entry h3 {
+      color: #F5F2ED; }
 
   /*Responsive Typography*/
   h1 {

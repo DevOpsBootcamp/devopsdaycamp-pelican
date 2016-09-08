@@ -18,8 +18,8 @@ $sans: 'Lato', sans-serif;
 
 //Colors for different sections
 $offwhite: #f5f2ed;
-$darkblue: #5D87A0; 
-$gray: #ACAFA6; 
+$darkblue: #5D87A0;
+$gray: #ACAFA6;
 $lightblue: #9CC5C9;
 $peach: #e0c399;
 
@@ -41,7 +41,7 @@ html{
     -webkit-padding: 0px;
 }
 
-h1, h2, h3, h4, h5, p, a, label{
+h1, h2, h3, h4, h5, p, a, li, hr, label{
     font-family: $serif;
     color: $lighttext;
     margin: 2px;
@@ -50,13 +50,12 @@ h1, h2, h3, h4, h5, p, a, label{
 
 h1{
     font-size: 36pt;}
-h2 { 
+h2 {
     margin-top: 1em;
-    font-size: 28pt;
-    // This is smalled than h3 because of how rst builds the page
-    text-align: left;}
-h3 { 
     font-size: 32pt;
+    text-align: left;}
+h3 {
+    font-size: 28pt;
     margin: auto;}
 h4{
     font-size: 24pt;}
@@ -264,7 +263,7 @@ display:none;}
     background-attachment: fixed !important;
     background-position: center center !important;
     background-size: cover !important;
-    
+
     h2, h3, h4, p{
         color: $darktext;
     }
@@ -315,7 +314,7 @@ display:none;}
 
 .peach{
     background: $peach;
-    
+
     h2, h3, h4, p{
         color: $darktext;
     }
@@ -426,19 +425,19 @@ display:none;}
     #navbar {
         ul li a {
             padding: 0 10px;
-        }        
+        }
     }
 }
 
 /*Responsive design!*/
 @media screen and (max-width: 680px){
-    $navheight: 104px; 
+    $navheight: 104px;
 
     #navbar .menu{
         display: block;
         margin: 15px auto;
         width: $menuwidth;
-    
+
         a {
             text-align: center;
         }
@@ -504,11 +503,11 @@ display:none;}
     }
 
     #about, #entry {
-        background: $offwhite; 
+        background: $offwhite;
         box-shadow: 0px 0px 0em;
 
         p, h2, h3 {
-            //color: $lighttext;
+            color: $lighttext;
         }
     }
 
