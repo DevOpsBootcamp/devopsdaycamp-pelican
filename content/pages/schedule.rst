@@ -61,3 +61,25 @@ Finally we will cover:
 
 And *lastly* we will get you on Internet Relay Chat (IRC) so you can
 communicate with DevOps Bootcamp teachers and students throughout the year.
+
+
+Session 4
+---------
+
+*2:30 - ???*
+
+Industry Panel
+~~~~~~~~~~~~~~
+
+Network with OSL and CASS professionals and alumni currently working in the
+tech industry. This free-from discussion can answer any questions you have about
+doing DevOps as a career. Panelists include: 
+
+* `Daniel Takamori <https://github.com/pono>`_, System Administrator at the `Apache Software Foundation <http://apache.org/>`_
+* `E. Dunham <https://github.com/edunham>`_, DevOps Engineer at `Mozilla <https://www.mozilla.org/en-US/firefox/new/>`_
+* `Elijah Caine <https://github.com/elijahcaine>`_, Developer at the `OSU Open Source Lab <http://osuosl.org/>`_
+* `Jordan Evans <https://github.com/jordane>`_, Sysadmin at `The Linux Foundation <https://www.linuxfoundation.org>`_
+* `Ken Lett <https://github.com/kennric>`_, Senior Software Engineer at the `OSU Open Source Lab <http://osuosl.org>`_
+* `Lance Albertson <https://github.com/ramereth>`_, Director of the `OSU Open Source Lab <http://osuosl.org/>`_
+
+ 
