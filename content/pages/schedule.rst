@@ -60,4 +60,4 @@ Finally we will cover:
 - How to find documentation for a project.
 
 And *lastly* we will get you on Internet Relay Chat (IRC) so you can
-communicate with DevOps Boocamp teachers and students throughout the year.
+communicate with DevOps Bootcamp teachers and students throughout the year.
