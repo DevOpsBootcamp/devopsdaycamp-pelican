@@ -78,7 +78,6 @@ doing DevOps as a career. Panelists include:
 * `Daniel Takamori <https://github.com/pono>`_, System Administrator at the `Apache Software Foundation <http://apache.org/>`_
 * `E. Dunham <https://github.com/edunham>`_, DevOps Engineer at `Mozilla <https://www.mozilla.org/en-US/firefox/new/>`_
 * `Jordan Evans <https://github.com/jordane>`_, Sysadmin at `The Linux Foundation <https://www.linuxfoundation.org>`_
-* `Ken Lett <https://github.com/kennric>`_, Senior Software Engineer at the `OSU Open Source Lab <http://osuosl.org>`_
 * `Lance Albertson <https://github.com/ramereth>`_, Director of the `OSU Open Source Lab <http://osuosl.org/>`_
 
  
