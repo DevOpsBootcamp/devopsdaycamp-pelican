@@ -17,6 +17,6 @@ introduction to our more comprehensive course, DevOps Bootcamp.
 
 Sponsored by:
 
-.. image:: ../theme/img/facebook-logo.png
+.. image:: images/facebook-logo.png
     :align: center
     :target: http://facebook.com
