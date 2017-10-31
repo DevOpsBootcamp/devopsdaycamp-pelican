@@ -51,7 +51,22 @@ and students throughout the year.
 Industry Panel
 ~~~~~~~~~~~~~~
 
-Network with OSL and CASS professionals and alumni currently working in the tech industry. This free-from discussion
-can answer any questions you have about doing DevOps as a career. In the past, we have had professionals from Mozilla,
-Linux Foundation, and Apache Software Foundation. This year's panel will be announced in the days leading up to the
-event.
+Network with OSL and other professionals and alumni currently working in the tech industry. This free-form discussion
+can answer any questions you have about doing DevOps as a career. This year's panelists include:
+
+- `E. Dunham`_, DevOps Engineer at `Mozilla`_
+- `Joshua Deare`_, Software Engineer at Fly
+- `Patrick White`_, Production Engineer at `Facebook`_
+- `Andrew McFague`_, Production Engineer at `Facebook`_
+- `Kyle Lexmond`_, Production Engineer at `Facebook`_
+- `Lance Albertson`_, Director of the `OSU Open Source Lab`_
+
+.. _E. Dunham: https://github.com/edunham
+.. _Joshua Deare: https://www.linkedin.com/in/joshua-deare-a8421155/
+.. _Patrick White: https://www.linkedin.com/in/patrickdwhite/
+.. _Andrew McFague: https://www.linkedin.com/in/andrew-mcfague-39b83813/
+.. _Kyle Lexmond: https://www.linkedin.com/in/kylelexmond/
+.. _Lance Albertson: https://github.com/ramereth
+.. _Facebook: http://facebook.com
+.. _Mozilla: https://www.mozilla.org/
+.. _OSU Open Source Lab: http://osuosl.org/
