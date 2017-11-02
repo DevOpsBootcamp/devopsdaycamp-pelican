@@ -4,6 +4,22 @@ Schedule
 :type: schedule
 :order: 3
 
+Checklist Before You Attend
+---------------------------
+
+To make the day go more smoothly, we recommend you complete the following checklist before you attend on Saturday.
+
+#. Make sure you bring a laptop (and it's power cord of course!)
+#. Make sure you have an SSH client installed (`follow this guide`__)
+#. Join our `Slack`_ group chat
+#. *Optional:* Install Docker on your laptop (`follow this guide`__)
+
+If you run into any issues with the checklist above, feel free to ask for help in `Slack`_!
+
+.. __: http://devopsbootcamp.osuosl.org/setup-ssh.html
+.. __: http://devopsbootcamp.osuosl.org/setup-docker.html
+.. _Slack: https://join.slack.com/t/devopsbootcamp/signup
+
 Registration
 ------------
 *9:30 - 10:00*
@@ -18,9 +34,6 @@ Introductory Workshop and Navigating Linux
 - Review what DevOps and DevOps Bootcamp are.
 - Cover what DevOps BootCamp will teach you throughout the year.
 - Get you started with your own Linux environment that that you can use for hands on demos.
-
-All you need to do is have a laptop, an SSH client installed, and web browser. You can also optionally install Docker
-ahead of time if you'd like.
 
 Operating Systems, Users, and Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
