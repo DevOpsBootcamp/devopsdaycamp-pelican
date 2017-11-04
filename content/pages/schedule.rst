@@ -28,24 +28,44 @@ Morning Sessions
 ----------------
 *10:00 - 12:00*
 
-`Introductory Workshop`_ / `Linux Environment Setup`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Introductory Workshop`_
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Review what DevOps and DevOps Bootcamp are.
 - Cover what DevOps BootCamp will teach you throughout the year.
-- Get you started with your own Linux environment that that you can use for hands on demos.
 
 .. _Introductory Workshop: http://devopsbootcamp.osuosl.org/start-here.html
-.. _Linux Environment Setup: http://devopsbootcamp.osuosl.org/first-steps.html
 
-`Operating Systems`_ / `Shell Navigation`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Linux Basics and Environment Setup`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Learn the basics of Linux
+- Get you started with your own Linux environment that that you can use for hands on demos.
+
+.. _Linux Basics and Environment Setup: http://devopsbootcamp.osuosl.org/first-steps.html
+
+`Operating Systems`_
+~~~~~~~~~~~~~~~~~~~~
 
 - What an operating system is and how it relates to Linux
 - Understanding the different Linux flavors and why they exist
-- Learn what a shell is and how you use it in Linux
 
 .. _Operating Systems: http://devopsbootcamp.osuosl.org/operating-systems.html
+
+`Documentation, and Getting on Slack & IRC`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- How to find documentation in Linux and for other projects
+- How you communicate with open source projects using Slack or IRC
+
+.. _Documentation, and Getting on Slack & IRC: http://devopsbootcamp.osuosl.org/documentation-communication.html
+
+`Shell Navigation`_
+~~~~~~~~~~~~~~~~~~~
+
+- Learn what a shell is and how you use it in Linux
+- How you can use the shell programming language to do simple tasks
+
 .. _Shell Navigation: http://devopsbootcamp.osuosl.org/shell-navigation-os.html
 
 Lunch (Pizza Provided)
@@ -56,15 +76,20 @@ Afternoon Sessions
 ------------------
 *1:00 - 2:30*
 
-`Users, Groups and Permissions`_ / `Files`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Users, Groups and Permissions`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Who (and what) a Linux User can be.
 - Understanding how to become the super user ``root`` user using ``sudo``
+
+.. _Users, Groups and Permissions: http://devopsbootcamp.osuosl.org/users-groups-permissions.html
+
+`Files`_
+~~~~~~~~
+
 - What a file is in Linux and how to learn about them.
 - How you interact with the Linux filesystem
 
-.. _Users, Groups and Permissions: http://devopsbootcamp.osuosl.org/users-groups-permissions.html
 .. _Files: http://devopsbootcamp.osuosl.org/files.html
 
 `Packages, Software, Libraries`_
@@ -74,17 +99,6 @@ Afternoon Sessions
 - How to install software in Linux
 
 .. _Packages, Software, Libraries: http://devopsbootcamp.osuosl.org/packages-software-libraries.html
-
-`Documentation, and Getting on Slack & IRC`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- How to find documentation in Linux and for other projects
-- How you communicate with open source projects using Slack or IRC
-
-And finally we will get you on Internet Relay Chat (IRC) and Slack so you can communicate with DevOps Bootcamp mentors
-and students throughout the year.
-
-.. _Documentation, and Getting on Slack & IRC: http://devopsbootcamp.osuosl.org/questions-answers-documentation.html
 
 Industry Panel
 ~~~~~~~~~~~~~~
