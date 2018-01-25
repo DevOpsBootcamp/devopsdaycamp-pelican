@@ -36,37 +36,37 @@ Morning Sessions
 
 .. _Introductory Workshop: http://devopsbootcamp.osuosl.org/start-here.html
 
-`Linux Basics and Environment Setup`_
+`Version Control`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Learn the basics of Linux
-- Get you started with your own Linux environment that that you can use for hands on demos.
+- Principles of version control systems.
+- Version control and workflows using Git.
 
-.. _Linux Basics and Environment Setup: http://devopsbootcamp.osuosl.org/first-steps.html
+.. _Version Control: http://devopsbootcamp.osuosl.org/version-control.html
 
-`Operating Systems`_
+`Programming`_
 ~~~~~~~~~~~~~~~~~~~~
 
-- What an operating system is and how it relates to Linux
-- Understanding the different Linux flavors and why they exist
+- Basic concepts of programming.
+- Python basics and virtual environments.
 
-.. _Operating Systems: http://devopsbootcamp.osuosl.org/operating-systems.html
+.. _Programming: http://devopsbootcamp.osuosl.org/programming.html
 
-`Documentation, and Getting on Slack & IRC`_
+`Frameworks`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- How to find documentation in Linux and for other projects
-- How you communicate with open source projects using Slack or IRC
+- Basics of web frameworks.
+- Introduction to HTTP and REST.
 
-.. _Documentation, and Getting on Slack & IRC: http://devopsbootcamp.osuosl.org/documentation-communication.html
+.. _Frameworks: http://devopsbootcamp.osuosl.org/frameworks.html
 
-`Shell Navigation`_
+`Testing`_
 ~~~~~~~~~~~~~~~~~~~
 
-- Learn what a shell is and how you use it in Linux
-- How you can use the shell programming language to do simple tasks
+- Types of testing and testing frameworks.
+- Unit testing in Python.
 
-.. _Shell Navigation: http://devopsbootcamp.osuosl.org/shell-navigation-os.html
+.. _Testing: http://devopsbootcamp.osuosl.org/testing.html
 
 Lunch (Pizza Provided)
 ----------------------
@@ -74,52 +74,38 @@ Lunch (Pizza Provided)
 
 Afternoon Sessions
 ------------------
-*1:00 - 2:30*
+*1:00 - 3:30*
 
-`Users, Groups and Permissions`_
+`Continuous Integration`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Who (and what) a Linux User can be.
-- Understanding how to become the super user ``root`` user using ``sudo``
+- What continuous integration is.
+- Jenkins and TravisCI.
 
-.. _Users, Groups and Permissions: http://devopsbootcamp.osuosl.org/users-groups-permissions.html
+.. _Continuous Integration: http://devopsbootcamp.osuosl.org/users-groups-permissions.html
 
-`Files`_
+`Security`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Threat models, access control and HTTPS.
+- Types of attacks and discovering vulnerabilities
+
+.. _Security: http://devopsbootcamp.osuosl.org/security.html
+
+`Databases`_
 ~~~~~~~~
 
-- What a file is in Linux and how to learn about them.
-- How you interact with the Linux filesystem
+- What databases are and SQL syntax.
+- Installing and setting up MySQL.
 
-.. _Files: http://devopsbootcamp.osuosl.org/files.html
+.. _Databases: http://devopsbootcamp.osuosl.org/databases.html
 
-`Packages, Software, Libraries`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- What packages, libraries and software are in relation to Linux.
-- How to install software in Linux
+`Dev Processes & Tools`_
+~~~~~~~~
 
-.. _Packages, Software, Libraries: http://devopsbootcamp.osuosl.org/packages-software-libraries.html
+- Code analysis and debugging.
+- Integrated Development Environments usage and dependency isolation.
 
-Industry Panel
-~~~~~~~~~~~~~~
-*2:30 - 3:30*
+.. _Dev Processes & Tools: http://devopsbootcamp.osuosl.org/development-processes-tools.html
 
-Network with OSL and other professionals and alumni currently working in the tech industry. This free-form discussion
-can answer any questions you have about doing DevOps as a career. This year's panelists include:
-
-- `E. Dunham`_, DevOps Engineer at `Mozilla`_
-- `Joshua Deare`_, Software Engineer at Fly
-- `Patrick White`_, Production Engineer at `Facebook`_
-- `Andrew McFague`_, Production Engineer at `Facebook`_
-- `Kyle Lexmond`_, Production Engineer at `Facebook`_
-- `Lance Albertson`_, Director of the `OSU Open Source Lab`_
-
-.. _E. Dunham: https://github.com/edunham
-.. _Joshua Deare: https://www.linkedin.com/in/joshua-deare-a8421155/
-.. _Patrick White: https://www.linkedin.com/in/patrickdwhite/
-.. _Andrew McFague: https://www.linkedin.com/in/andrew-mcfague-39b83813/
-.. _Kyle Lexmond: https://www.linkedin.com/in/kylelexmond/
-.. _Lance Albertson: https://github.com/ramereth
-.. _Facebook: http://facebook.com
-.. _Mozilla: https://www.mozilla.org/
-.. _OSU Open Source Lab: http://osuosl.org/
