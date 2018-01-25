@@ -37,7 +37,7 @@ Morning Sessions
 .. _Introductory Workshop: http://devopsbootcamp.osuosl.org/start-here.html
 
 `Version Control`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 - Principles of version control systems.
 - Version control and workflows using Git.
@@ -45,7 +45,7 @@ Morning Sessions
 .. _Version Control: http://devopsbootcamp.osuosl.org/version-control.html
 
 `Programming`_
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 - Basic concepts of programming.
 - Python basics and virtual environments.
@@ -53,7 +53,7 @@ Morning Sessions
 .. _Programming: http://devopsbootcamp.osuosl.org/programming.html
 
 `Frameworks`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 - Basics of web frameworks.
 - Introduction to HTTP and REST.
@@ -61,7 +61,7 @@ Morning Sessions
 .. _Frameworks: http://devopsbootcamp.osuosl.org/frameworks.html
 
 `Testing`_
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
 
 - Types of testing and testing frameworks.
 - Unit testing in Python.
@@ -77,7 +77,7 @@ Afternoon Sessions
 *1:00 - 3:30*
 
 `Continuous Integration`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - What continuous integration is.
 - Jenkins and TravisCI.
@@ -85,7 +85,7 @@ Afternoon Sessions
 .. _Continuous Integration: http://devopsbootcamp.osuosl.org/users-groups-permissions.html
 
 `Security`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
 
 - Threat models, access control and HTTPS.
 - Types of attacks and discovering vulnerabilities
@@ -93,7 +93,7 @@ Afternoon Sessions
 .. _Security: http://devopsbootcamp.osuosl.org/security.html
 
 `Databases`_
-~~~~~~~~
+~~~~~~~~~~~~
 
 - What databases are and SQL syntax.
 - Installing and setting up MySQL.
@@ -102,7 +102,7 @@ Afternoon Sessions
 
 
 `Dev Processes & Tools`_
-~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Code analysis and debugging.
 - Integrated Development Environments usage and dependency isolation.
