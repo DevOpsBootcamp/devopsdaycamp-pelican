@@ -36,37 +36,37 @@ Morning Sessions
 
 .. _Introductory Workshop: http://devopsbootcamp.osuosl.org/start-here.html
 
-`Linux Basics and Environment Setup`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- Learn the basics of Linux
-- Get you started with your own Linux environment that that you can use for hands on demos.
-
-.. _Linux Basics and Environment Setup: http://devopsbootcamp.osuosl.org/first-steps.html
-
-`Operating Systems`_
-~~~~~~~~~~~~~~~~~~~~
-
-- What an operating system is and how it relates to Linux
-- Understanding the different Linux flavors and why they exist
-
-.. _Operating Systems: http://devopsbootcamp.osuosl.org/operating-systems.html
-
-`Documentation, and Getting on Slack & IRC`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- How to find documentation in Linux and for other projects
-- How you communicate with open source projects using Slack or IRC
-
-.. _Documentation, and Getting on Slack & IRC: http://devopsbootcamp.osuosl.org/documentation-communication.html
-
-`Shell Navigation`_
+`Version Control`_
 ~~~~~~~~~~~~~~~~~~~
 
-- Learn what a shell is and how you use it in Linux
-- How you can use the shell programming language to do simple tasks
+- Principles of version control systems.
+- Version control and workflows using Git.
 
-.. _Shell Navigation: http://devopsbootcamp.osuosl.org/shell-navigation-os.html
+.. _Version Control: http://devopsbootcamp.osuosl.org/version-control.html
+
+`Programming`_
+~~~~~~~~~~~~~~~~
+
+- Basic concepts of programming.
+- Python basics and virtual environments.
+
+.. _Programming: http://devopsbootcamp.osuosl.org/programming.html
+
+`Frameworks`_
+~~~~~~~~~~~~~~~
+
+- Basics of web frameworks.
+- Introduction to HTTP and REST.
+
+.. _Frameworks: http://devopsbootcamp.osuosl.org/frameworks.html
+
+`Testing`_
+~~~~~~~~~~~
+
+- Types of testing and testing frameworks.
+- Unit testing in Python.
+
+.. _Testing: http://devopsbootcamp.osuosl.org/testing.html
 
 Lunch (Pizza Provided)
 ----------------------
@@ -74,52 +74,38 @@ Lunch (Pizza Provided)
 
 Afternoon Sessions
 ------------------
-*1:00 - 2:30*
+*1:00 - 3:30*
 
-`Users, Groups and Permissions`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Continuous Integration`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Who (and what) a Linux User can be.
-- Understanding how to become the super user ``root`` user using ``sudo``
+- What continuous integration is.
+- Jenkins and TravisCI.
 
-.. _Users, Groups and Permissions: http://devopsbootcamp.osuosl.org/users-groups-permissions.html
+.. _Continuous Integration: http://devopsbootcamp.osuosl.org/users-groups-permissions.html
 
-`Files`_
-~~~~~~~~
+`Security`_
+~~~~~~~~~~~~
 
-- What a file is in Linux and how to learn about them.
-- How you interact with the Linux filesystem
+- Threat models, access control and HTTPS.
+- Types of attacks and discovering vulnerabilities
 
-.. _Files: http://devopsbootcamp.osuosl.org/files.html
+.. _Security: http://devopsbootcamp.osuosl.org/security.html
 
-`Packages, Software, Libraries`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Databases`_
+~~~~~~~~~~~~
 
-- What packages, libraries and software are in relation to Linux.
-- How to install software in Linux
+- What databases are and SQL syntax.
+- Installing and setting up MySQL.
 
-.. _Packages, Software, Libraries: http://devopsbootcamp.osuosl.org/packages-software-libraries.html
+.. _Databases: http://devopsbootcamp.osuosl.org/databases.html
 
-Industry Panel
-~~~~~~~~~~~~~~
-*2:30 - 3:30*
 
-Network with OSL and other professionals and alumni currently working in the tech industry. This free-form discussion
-can answer any questions you have about doing DevOps as a career. This year's panelists include:
+`Dev Processes & Tools`_
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-- `E. Dunham`_, DevOps Engineer at `Mozilla`_
-- `Joshua Deare`_, Software Engineer at Fly
-- `Patrick White`_, Production Engineer at `Facebook`_
-- `Andrew McFague`_, Production Engineer at `Facebook`_
-- `Kyle Lexmond`_, Production Engineer at `Facebook`_
-- `Lance Albertson`_, Director of the `OSU Open Source Lab`_
+- Code analysis and debugging.
+- Integrated Development Environments usage and dependency isolation.
 
-.. _E. Dunham: https://github.com/edunham
-.. _Joshua Deare: https://www.linkedin.com/in/joshua-deare-a8421155/
-.. _Patrick White: https://www.linkedin.com/in/patrickdwhite/
-.. _Andrew McFague: https://www.linkedin.com/in/andrew-mcfague-39b83813/
-.. _Kyle Lexmond: https://www.linkedin.com/in/kylelexmond/
-.. _Lance Albertson: https://github.com/ramereth
-.. _Facebook: http://facebook.com
-.. _Mozilla: https://www.mozilla.org/
-.. _OSU Open Source Lab: http://osuosl.org/
+.. _Dev Processes & Tools: http://devopsbootcamp.osuosl.org/development-processes-tools.html
+
