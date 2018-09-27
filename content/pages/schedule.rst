@@ -36,37 +36,37 @@ Morning Sessions
 
 .. _Introductory Workshop: http://devopsbootcamp.osuosl.org/start-here.html
 
-`Version Control`_
+`Linux Basics and Environment Setup`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Learn the basics of Linux
+- Get you started with your own Linux environment that that you can use for hands on demos.
+
+.. _Linux Basics and Environment Setup: http://devopsbootcamp.osuosl.org/first-steps.html
+
+`Operating Systems`_
+~~~~~~~~~~~~~~~~~~~~
+
+- What an operating system is and how it relates to Linux
+- Understanding the different Linux flavors and why they exist
+
+.. _Operating Systems: http://devopsbootcamp.osuosl.org/operating-systems.html
+
+`Documentation, and Getting on Slack & IRC`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- How to find documentation in Linux and for other projects
+- How you communicate with open source projects using Slack or IRC
+
+.. _Documentation, and Getting on Slack & IRC: http://devopsbootcamp.osuosl.org/documentation-communication.html
+
+`Shell Navigation`_
 ~~~~~~~~~~~~~~~~~~~
 
-- Principles of version control systems.
-- Version control and workflows using Git.
+- Learn what a shell is and how you use it in Linux
+- How you can use the shell programming language to do simple tasks
 
-.. _Version Control: http://devopsbootcamp.osuosl.org/version-control.html
-
-`Programming`_
-~~~~~~~~~~~~~~~~
-
-- Basic concepts of programming.
-- Python basics and virtual environments.
-
-.. _Programming: http://devopsbootcamp.osuosl.org/programming.html
-
-`Frameworks`_
-~~~~~~~~~~~~~~~
-
-- Basics of web frameworks.
-- Introduction to HTTP and REST.
-
-.. _Frameworks: http://devopsbootcamp.osuosl.org/frameworks.html
-
-`Testing`_
-~~~~~~~~~~~
-
-- Types of testing and testing frameworks.
-- Unit testing in Python.
-
-.. _Testing: http://devopsbootcamp.osuosl.org/testing.html
+.. _Shell Navigation: http://devopsbootcamp.osuosl.org/shell-navigation-os.html
 
 Lunch (Pizza Provided)
 ----------------------
@@ -74,32 +74,23 @@ Lunch (Pizza Provided)
 
 Afternoon Sessions
 ------------------
-*1:00 - 3:30*
+*1:00 - 2:30*
 
-`Continuous Integration`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Users, Groups and Permissions`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- What continuous integration is.
-- Jenkins and TravisCI.
+- Who (and what) a Linux User can be.
+- Understanding how to become the super user ``root`` user using ``sudo``
 
-.. _Continuous Integration: http://devopsbootcamp.osuosl.org/users-groups-permissions.html
+.. _Users, Groups and Permissions: http://devopsbootcamp.osuosl.org/users-groups-permissions.html
 
-`Security`_
-~~~~~~~~~~~~
+`Files`_
+~~~~~~~~
 
-- Threat models, access control and HTTPS.
-- Types of attacks and discovering vulnerabilities
+- What a file is in Linux and how to learn about them.
+- How you interact with the Linux filesystem
 
-.. _Security: http://devopsbootcamp.osuosl.org/security.html
-
-`Databases`_
-~~~~~~~~~~~~
-
-- What databases are and SQL syntax.
-- Installing and setting up MySQL.
-
-.. _Databases: http://devopsbootcamp.osuosl.org/databases.html
-
+.. _Files: http://devopsbootcamp.osuosl.org/files.html
 
 `Dev Processes & Tools`_
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -109,3 +100,10 @@ Afternoon Sessions
 
 .. _Dev Processes & Tools: http://devopsbootcamp.osuosl.org/development-processes-tools.html
 
+`Packages, Software, Libraries`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- What packages, libraries and software are in relation to Linux.
+- How to install software in Linux
+
+.. _Packages, Software, Libraries: http://devopsbootcamp.osuosl.org/packages-software-libraries.html

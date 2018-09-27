@@ -6,12 +6,10 @@ About
 :order: 1
 :parallax: 1
 
-DevOps DayCamp is a follow-up event to DevOps BootCamp Fall Kickoff. The hands-on workshop is designed 
-to teach participants DevOps, a program development process that includes building, testing, and releasing software. 
-
-If you didn't attend BootCamp in the Fall, it will be helpful if you become familiar with the content that was 
-covered there (found in the DevOps website)
-
+The OSL is once again kicking off DevOps BootCamp with the annual fall kickoff! DevOps BootCamp Fall Kickoff (formerly
+DevOps DayCamp) is a single-day event designed to teach participants DevOps, a program development process that
+includes building, testing, and releasing software. Participants learn the basics of DevOps practices as an
+introduction to our more comprehensive course, DevOps Bootcamp.
 
 .. raw:: html
 
