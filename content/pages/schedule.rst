@@ -92,14 +92,6 @@ Afternoon Sessions
 
 .. _Files: http://devopsbootcamp.osuosl.org/files.html
 
-`Dev Processes & Tools`_
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-- Code analysis and debugging.
-- Integrated Development Environments usage and dependency isolation.
-
-.. _Dev Processes & Tools: http://devopsbootcamp.osuosl.org/development-processes-tools.html
-
 `Packages, Software, Libraries`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
