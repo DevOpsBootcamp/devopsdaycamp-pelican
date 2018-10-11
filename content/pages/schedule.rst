@@ -99,3 +99,12 @@ Afternoon Sessions
 - How to install software in Linux
 
 .. _Packages, Software, Libraries: http://devopsbootcamp.osuosl.org/packages-software-libraries.html
+ 
+Industry Panel
+~~~~~~~~~~~~~~
+*2:30 - 3:30*
+
+Network with OSL and CASS professionals and alumni currently working in the tech industry. This free-from discussion
+can answer any questions you have about doing DevOps as a career. In the past, we have had professionals from Mozilla,
+Linux Foundation, Apache Software Foundation and Facebook. This year's panel will be announced in the days leading up
+to the event.
