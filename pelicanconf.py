@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+
 
 PATH = 'content'
-AUTHOR = u'Lucy Wyman'
-SITENAME = u'Devops Daycamp'
+AUTHOR = 'Lucy Wyman'
+SITENAME = 'Devops Daycamp'
 SITEURL = ''
 
 TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
